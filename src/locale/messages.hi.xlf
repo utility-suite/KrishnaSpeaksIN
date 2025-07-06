@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="hi" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>होम</target>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <target>परिचय</target>
+      </trans-unit>
+      <trans-unit id="7751010942038334793" datatype="html">
+        <source>Blog</source>
+        <target>ब्लॉग</target>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>संपर्क</target>
+      </trans-unit>
+      <trans-unit id="6018686961415145811" datatype="html">
+        <source>About Me</source>
+        <target>मेरे बारे में</target>
+      </trans-unit>
+      <trans-unit id="4974455797142784291" datatype="html">
+        <source>I am Krishna Kumar Pandey, Technical Assistant at IISc. I write about software, exams, and life lessons.</source>
+        <target>मैं कृष्ण कुमार पांडे, भारतीय विज्ञान संस्थान (IISc) में तकनीकी सहायक हूं। मैं सॉफ्टवेयर, परीक्षाओं और जीवन के अनुभवों के बारे में लिखता हूं।</target>
+      </trans-unit>
+      <trans-unit id="5668878733016988671" datatype="html">
+        <source>Explore my thoughts on technology, learning, and productivity.</source>
+        <target>प्रौद्योगिकी, सीखने और उत्पादकता पर मेरे विचारों को पढ़ें।</target>
+      </trans-unit>
+      <trans-unit id="5669462994581337154" datatype="html">
+        <source>Contact Me</source>
+        <target>मुझसे संपर्क करें</target>
+      </trans-unit>
+      <trans-unit id="1236935048002780642" datatype="html">
+        <source>You can reach out to me for collaboration, questions, or feedback.</source>
+        <target>आप सहयोग, प्रश्नों या सुझावों के लिए मुझसे संपर्क कर सकते हैं।</target>
+      </trans-unit>
+      <trans-unit id="198061579989381850" datatype="html">
+        <source>Welcome to Krishna Speaks</source>
+        <target>कृष्णा स्पीक्स में आपका स्वागत है</target>
+      </trans-unit>
+      <trans-unit id="1251490261649366834" datatype="html">
+        <source>This is a personal blog and portfolio of Krishna Kumar Pandey.</source>
+        <target>यह कृष्णा कुमार पांडे का व्यक्तिगत ब्लॉग और पोर्टफोलियो है।</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
