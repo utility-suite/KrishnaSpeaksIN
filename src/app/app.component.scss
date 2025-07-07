@@ -1,48 +1,14 @@
-body,
-.navbar,
-.bg-light,
-.btn,
-a,
-.fas {
-  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, transform 0.4s ease;
-}
-
-/* DARK MODE */
-body.dark-mode {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-body.dark-mode .navbar,
-body.dark-mode .bg-light {
-  background-color: #1e1e1e !important;
-  border-color: #444 !important;
-}
-
-body.dark-mode a,
-body.dark-mode .nav-link {
-  color: #bb86fc !important;
-}
-
-body.dark-mode .btn-outline-primary,
-body.dark-mode .btn-outline-success {
-  color: #fff !important;
-  border-color: #888 !important;
-}
-
-body.dark-mode .fa-sun {
-  color: #f9d71c;
-}
-
-body.dark-mode .fa-moon {
-  color: #ccc;
-}
-
+/* Icon spin animation */
 .fas:active {
   transform: rotate(180deg);
 }
-.logo-title {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-  font-weight: 500;
+
+/* Navbar toggler override */
+.navbar-toggler {
+  border-color: transparent;
+}
+
+/* Hamburger icon visibility in dark mode */
+body.dark-mode .navbar-toggler-icon {
+  filter: invert(1);
 }

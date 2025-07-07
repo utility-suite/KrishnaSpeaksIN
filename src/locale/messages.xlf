@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">14,15</context>
+          <context context-type="linenumber">47,48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1726363342938046830" datatype="html">
         <source>About</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15,16</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9201103587777813545" datatype="html">
+        <source>Portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7751010942038334793" datatype="html">
         <source>Blog</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="linenumber">50,51</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/blog/blog.component.html</context>
@@ -31,21 +42,70 @@
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">17,18</context>
+          <context context-type="linenumber">51,52</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6018686961415145811" datatype="html">
-        <source>About Me</source>
+      <trans-unit id="2471814279224826082" datatype="html">
+        <source>Technical Assistant</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4974455797142784291" datatype="html">
-        <source>I am Krishna Kumar Pandey, Technical Assistant at IISc. I write about software, exams, and life lessons.</source>
+      <trans-unit id="6855844403589548064" datatype="html">
+        <source>Indian Institute of Science (IISc)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
-          <context context-type="linenumber">3,4</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4890470038163423345" datatype="html">
+        <source>Bengaluru – 560012, INDIA</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6346168494312151322" datatype="html">
+        <source>A little about me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3238381523520662024" datatype="html">
+        <source> My name is <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Krishna Kumar Pandey<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. I currently work as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Technical Assistant<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> at the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Indian Institute of Science (IISc), Bengaluru<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Most days involve a quiet balance of <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>web development<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>systems support<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, and ensuring that research and operations keep moving without friction. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">18,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1023368672790575603" datatype="html">
+        <source> I completed my <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>MCA<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> from <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>JAIN (Deemed-to-be University)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and my <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>BCA<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> from <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Acharya Institute of Graduate Studies<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Through these years, I was fortunate to be recognised for academic and extracurricular excellence, but it was the habit of <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>writing, coding, and staying curious<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> that stuck with me most. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">24,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7525184255346123173" datatype="html">
+        <source> My technical work ranges from developing academic portals and dashboards to building custom tools using Angular and the MERN stack. I’ve also contributed to automation workflows and server-side scripting for smoother research operations. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3883967780100902154" datatype="html">
+        <source> Outside of code, I enjoy mentoring, editing, and collaborating on creative projects. Whether it’s preparing students for exams or helping a team shape their ideas — I find purpose in clear communication and thoughtful execution. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="671234466722778184" datatype="html">
+        <source><x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>KrishnaSpeaks.IN<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> is where all of that comes together — as notes from the journey, shared one post at a time. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">40,43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5668878733016988671" datatype="html">
@@ -59,28 +119,120 @@
         <source>Contact Me</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1236935048002780642" datatype="html">
-        <source>You can reach out to me for collaboration, questions, or feedback.</source>
+      <trans-unit id="1499239511633540226" datatype="html">
+        <source> You can reach out to me for collaboration, questions, or feedback. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
-          <context context-type="linenumber">3,4</context>
+          <context context-type="linenumber">6,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="198061579989381850" datatype="html">
-        <source>Welcome to Krishna Speaks</source>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8066608938393600549" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8730666920545442370" datatype="html">
+        <source>Send Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3045523018766859841" datatype="html">
+        <source>Welcome to</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1251490261649366834" datatype="html">
-        <source>This is a personal blog and portfolio of Krishna Kumar Pandey.</source>
+      <trans-unit id="2597597119576496481" datatype="html">
+        <source>krishnaspeaks[dot]in</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">3,4</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8771016874269577874" datatype="html">
+        <source> This is where I share thoughts on <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>technology<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>competitive exams<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, and <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>life lessons<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> — experiences shaped through learning, writing, and working in the field. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2282121692318423774" datatype="html">
+        <source> The journey so far has brought me to the Indian Institute of Science (IISc), Bengaluru, where I serve as a Technical Assistant. My work spans systems, development, and support — often blending code with curiosity. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="422465141051351389" datatype="html">
+        <source> Along the way, I completed my MCA from JAIN University, cleared GATE and NET, and built tools with Angular and the MERN stack. This space continues that journey — one post at a time. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4612759765845907741" datatype="html">
+        <source> Here are some of the tools, dashboards, and applications I&apos;ve built over the years — academic, personal, and exploratory. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio.cCauvery" datatype="html">
+        <source>
+          Official web presence of the cCauvery project — Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin at IISc. The platform provides access to river basin datasets, monitoring indicators, and basin-scale analytics.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">X</context> <!-- Adjust if needed -->
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio.riverHealth" datatype="html">
+        <source>
+          An interactive decision-support system for assessing river health using macroinvertebrate-based indices such as GRSbios, HKHbios, BMWP, and regional variants. Designed to assist researchers, students, and stakeholders in ecological monitoring.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">X</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio.icwar" datatype="html">
+        <source>
+          Official website of the Interdisciplinary Centre for Water Research (ICWaR), IISc. Includes academic programs, research projects, faculty profiles, collaborations, and dissemination of center-led initiatives.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">X</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio.oneGroup" datatype="html">
+        <source>
+          Website of the ONe Research Group led by Prof. Praveen C. Ramamurthy at the Department of Materials Engineering, IISc. Designed to showcase ongoing research, publications, and collaborative projects in sustainability and energy.
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">X</context>
         </context-group>
       </trans-unit>
     </body>

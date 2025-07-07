@@ -1,56 +1,69 @@
-<!-- Social + Language + Dark Mode Bar -->
-<div class="d-flex justify-content-between align-items-center p-2 bg-light border-bottom px-3">
-  
-  <!-- Social Icons (Left) -->
-  <div class="d-flex gap-3">
-    <a href="https://github.com/krishnapandeykp" target="_blank" rel="noopener" title="GitHub">
-      <i class="fab fa-github" style="font-size: 1.25rem; color: #333;"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/realkrishnapandey" target="_blank" rel="noopener" title="LinkedIn">
-      <i class="fab fa-linkedin" style="font-size: 1.25rem; color: #0A66C2;"></i>
-    </a>
-    <a href="https://www.facebook.com/krishnapandeyrtist" target="_blank" rel="noopener" title="Facebook">
-      <i class="fab fa-facebook" style="font-size: 1.25rem; color: #1877F2;"></i>
-    </a>
-    <a href="https://www.instagram.com/rtist__krishna_" target="_blank" rel="noopener" title="Instagram">
-      <i class="fab fa-instagram" style="font-size: 1.25rem; color: #E1306C;"></i>
-    </a>
+<div class="d-flex flex-column min-vh-100">
+  <!-- Top bar: Social + Language + Theme -->
+  <div class="d-flex justify-content-between align-items-center p-2 bg-light border-bottom px-3">
+    <!-- Social Icons -->
+    <div class="d-flex gap-3 ms-3">
+      <a href="https://github.com/krishnapandeykp" target="_blank" rel="noopener" title="GitHub">
+        <i class="fab fa-github" style="font-size: 1.25rem; color: #333;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/realkrishnapandey" target="_blank" rel="noopener" title="LinkedIn">
+        <i class="fab fa-linkedin" style="font-size: 1.25rem; color: #0A66C2;"></i>
+      </a>
+      <a href="https://www.facebook.com/krishnapandeyrtist" target="_blank" rel="noopener" title="Facebook">
+        <i class="fab fa-facebook" style="font-size: 1.25rem; color: #1877F2;"></i>
+      </a>
+      <a href="https://www.instagram.com/rtist__krishna_" target="_blank" rel="noopener" title="Instagram">
+        <i class="fab fa-instagram" style="font-size: 1.25rem; color: #E1306C;"></i>
+      </a>
+    </div>
+
+    <!-- Language + Theme Toggle -->
+    <div class="d-flex align-items-center gap-3 me-2">
+      <a href="/" class="btn btn-sm btn-outline-primary">English</a>
+      <a href="/hi/" class="btn btn-sm btn-outline-success">हिन्दी</a>
+      <i
+        class="fas"
+        [class.fa-sun]="isDarkMode"
+        [class.fa-moon]="!isDarkMode"
+        (click)="toggleDarkMode()"
+        title="Toggle Dark Mode"
+        style="cursor: pointer; font-size: 1.25rem;"
+      ></i>
+    </div>
   </div>
 
-  <!-- Language + Theme Toggle (Right) -->
-  <div class="d-flex align-items-center gap-3">
-    <a href="/" class="btn btn-sm btn-outline-primary">English</a>
-    <a href="/hi/" class="btn btn-sm btn-outline-success">हिन्दी</a>
-    <i
-      class="fas"
-      [class.fa-sun]="isDarkMode"
-      [class.fa-moon]="!isDarkMode"
-      (click)="toggleDarkMode()"
-      title="Toggle Dark Mode"
-      style="cursor: pointer; font-size: 1.25rem;"
-    ></i>
-  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg px-3 bg-teal "
+       [ngClass]="{ 'navbar-dark bg-dark': isDarkMode, 'navbar-light bg-light': !isDarkMode }">
+    <a class="navbar-brand" routerLink="/">
+      <img src="assets/KrishnaSpeaksIN.png" alt="KrishnaSpeaks Logo" height="80" class="mx-2" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto fw-semibold fs-5">
+        <li class="nav-item"><a class="nav-link" routerLink="/" i18n>Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/about" i18n>About</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/portfolio" i18n>Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/blog" i18n>Blog</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/contact" i18n>Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="flex-grow-1">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-teal text-center py-3 border-top mt-0">
+    <div class="container">
+      <div class="fw-semibold fs-5 mb-1">KrishnaSpeaks.IN</div>
+      <div class="small">&copy; {{ currentYear }} All rights reserved.</div>
+    </div>
+  </footer>
 
 </div>
-
-
-
-
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg px-3">
-  <a class="navbar-brand" routerLink="/">Krishna Speaks</a>
-  <span class="logo-title">KrishnaSpeaks</span>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link" routerLink="/" i18n>Home</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/about" i18n>About</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/blog" i18n>Blog</a></li>
-      <li class="nav-item"><a class="nav-link" routerLink="/contact" i18n>Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
-<router-outlet />

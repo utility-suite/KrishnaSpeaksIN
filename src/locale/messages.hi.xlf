@@ -46,6 +46,42 @@
         <source>This is a personal blog and portfolio of Krishna Kumar Pandey.</source>
         <target>यह कृष्णा कुमार पांडे का व्यक्तिगत ब्लॉग और पोर्टफोलियो है।</target>
       </trans-unit>
+      <trans-unit id="portfolio.cCauvery" datatype="html">
+  <source>
+    Official web presence of the cCauvery project — Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin at IISc. The platform provides access to river basin datasets, monitoring indicators, and basin-scale analytics.
+  </source>
+  <target>
+    cCauvery परियोजना की आधिकारिक वेब उपस्थिति — कावेरी नदी बेसिन के लिए स्थिति मूल्यांकन और प्रबंधन योजना (CAMP)। यह प्लेटफ़ॉर्म बेसिन डेटा, निगरानी संकेतकों और विश्लेषणात्मक टूल्स तक पहुँच प्रदान करता है।
+  </target>
+</trans-unit>
+
+<trans-unit id="portfolio.riverHealth" datatype="html">
+  <source>
+    An interactive decision-support system for assessing river health using macroinvertebrate-based indices such as GRSbios, HKHbios, BMWP, and regional variants. Designed to assist researchers, students, and stakeholders in ecological monitoring.
+  </source>
+  <target>
+    यह एक इंटरएक्टिव निर्णय-सहायक प्रणाली है जो GRSbios, HKHbios, BMWP जैसे मैक्रोइनवर्टेब्रेट आधारित सूचकों के माध्यम से नदी की स्थिति का मूल्यांकन करने में मदद करती है। यह प्रणाली शोधकर्ताओं, छात्रों और हितधारकों के लिए डिज़ाइन की गई है।
+  </target>
+</trans-unit>
+
+<trans-unit id="portfolio.icwar" datatype="html">
+  <source>
+    Official website of the Interdisciplinary Centre for Water Research (ICWaR), IISc. Includes academic programs, research projects, faculty profiles, collaborations, and dissemination of center-led initiatives.
+  </source>
+  <target>
+    इंटरडिसिप्लिनरी सेंटर फॉर वाटर रिसर्च (ICWaR), IISc की आधिकारिक वेबसाइट। इसमें शैक्षणिक कार्यक्रमों, अनुसंधान परियोजनाओं, फैकल्टी प्रोफाइल, सहयोग और केंद्र द्वारा संचालित पहलों की जानकारी शामिल है।
+  </target>
+</trans-unit>
+
+<trans-unit id="portfolio.oneGroup" datatype="html">
+  <source>
+    Website of the ONe Research Group led by Prof. Praveen C. Ramamurthy at the Department of Materials Engineering, IISc. Designed to showcase ongoing research, publications, and collaborative projects in sustainability and energy.
+  </source>
+  <target>
+    प्रो. प्रवीण सी. राममूर्ति द्वारा संचालित ONe रिसर्च ग्रुप की वेबसाइट, जो IISc के मैटेरियल्स इंजीनियरिंग विभाग में स्थित है। यह वेबसाइट सततता और ऊर्जा विषयों पर चल रहे शोध, प्रकाशनों और सहयोगी परियोजनाओं को प्रदर्शित करती है।
+  </target>
+</trans-unit>
+
     </body>
   </file>
 </xliff>
