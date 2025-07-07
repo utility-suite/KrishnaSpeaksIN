@@ -1,11 +1,45 @@
-<div class="text-end p-2 bg-light border-bottom">
-  <a href="/" class="btn btn-sm btn-outline-primary me-2">English</a>
-  <a href="/hi/" class="btn btn-sm btn-outline-success">हिन्दी</a>
+<!-- Social + Language + Dark Mode Bar -->
+<div class="d-flex justify-content-between align-items-center p-2 bg-light border-bottom px-3">
+  
+  <!-- Social Icons (Left) -->
+  <div class="d-flex gap-3">
+    <a href="https://github.com/krishnapandeykp" target="_blank" rel="noopener" title="GitHub">
+      <i class="fab fa-github" style="font-size: 1.25rem; color: #333;"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/realkrishnapandey" target="_blank" rel="noopener" title="LinkedIn">
+      <i class="fab fa-linkedin" style="font-size: 1.25rem; color: #0A66C2;"></i>
+    </a>
+    <a href="https://www.facebook.com/krishnapandeyrtist" target="_blank" rel="noopener" title="Facebook">
+      <i class="fab fa-facebook" style="font-size: 1.25rem; color: #1877F2;"></i>
+    </a>
+    <a href="https://www.instagram.com/rtist__krishna_" target="_blank" rel="noopener" title="Instagram">
+      <i class="fab fa-instagram" style="font-size: 1.25rem; color: #E1306C;"></i>
+    </a>
+  </div>
+
+  <!-- Language + Theme Toggle (Right) -->
+  <div class="d-flex align-items-center gap-3">
+    <a href="/" class="btn btn-sm btn-outline-primary">English</a>
+    <a href="/hi/" class="btn btn-sm btn-outline-success">हिन्दी</a>
+    <i
+      class="fas"
+      [class.fa-sun]="isDarkMode"
+      [class.fa-moon]="!isDarkMode"
+      (click)="toggleDarkMode()"
+      title="Toggle Dark Mode"
+      style="cursor: pointer; font-size: 1.25rem;"
+    ></i>
+  </div>
+
 </div>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg px-3">
   <a class="navbar-brand" routerLink="/">Krishna Speaks</a>
+  <span class="logo-title">KrishnaSpeaks</span>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,7 +50,6 @@
       <li class="nav-item"><a class="nav-link" routerLink="/blog" i18n>Blog</a></li>
       <li class="nav-item"><a class="nav-link" routerLink="/contact" i18n>Contact</a></li>
     </ul>
-
   </div>
 </nav>
 

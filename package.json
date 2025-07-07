@@ -4,10 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:krishnaspeaksin": "node dist/krishnaspeaksin/server/server.mjs"
+    "clean": "rimraf dist .angular",
+    "build": "ng build --localize",
+    "postbuild": "cmd /c \"copy /Y dist\\krishnaspeaksin\\browser\\en\\index.html dist\\krishnaspeaksin\\browser\\index.html && copy /Y dist\\krishnaspeaksin\\browser\\en\\index.html dist\\krishnaspeaksin\\browser\\404.html && echo www.krishnaspeaks.in > dist\\krishnaspeaksin\\browser\\CNAME\"",
+    "deploy": "npx gh-pages -d dist/krishnaspeaksin/browser -b gh-pages -r https://github.com/utility-suite/KrishnaSpeaksIN.git"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +37,7 @@
     "@types/express": "^4.17.17",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
+    "cross-env": "^7.0.3",
     "gh-pages": "^5.0.0",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
@@ -42,6 +45,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "rimraf": "^6.0.1",
     "typescript": "~5.5.2"
   }
 }
