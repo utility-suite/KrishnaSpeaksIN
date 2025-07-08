@@ -5,23 +5,19 @@
   </p>
 
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <!-- Project Card -->
     <div class="col" *ngFor="let project of projects">
       <div class="card h-100 shadow-sm">
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>
-
-          <!-- i18n description -->
-          <p class="card-text small" [attr.i18n]="project.i18nKey"></p>
-
+          <p class="card-text small">{{ project.description }}</p>
           <div class="mb-2">
-            <span class="badge text-bg-secondary me-1" *ngFor="let tech of projectTechMap[project.i18nKey]">
-              {{ tech }}
-            </span>
+            <span class="badge text-bg-secondary me-1" *ngFor="let tech of project.tech">{{ tech }}</span>
           </div>
         </div>
         <div class="card-footer bg-transparent border-0 d-flex justify-content-between">
-          <a *ngIf="projectGitHubMap[project.i18nKey]" [href]="projectGitHubMap[project.i18nKey]" target="_blank" class="btn btn-sm btn-dark">GitHub</a>
-          <a *ngIf="projectDemoMap[project.i18nKey]" [href]="projectDemoMap[project.i18nKey]" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+          <a *ngIf="project.github" [href]="project.github" target="_blank" class="btn btn-sm btn-dark">GitHub</a>
+          <a *ngIf="project.demo" [href]="project.demo" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
         </div>
       </div>
     </div>

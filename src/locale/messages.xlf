@@ -199,41 +199,69 @@
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="portfolio.cCauvery" datatype="html">
-        <source>
-          Official web presence of the cCauvery project — Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin at IISc. The platform provides access to river basin datasets, monitoring indicators, and basin-scale analytics.
-        </source>
+      <trans-unit id="2968951326994805525" datatype="html">
+        <source>cCauvery</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
-          <context context-type="linenumber">X</context> <!-- Adjust if needed -->
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
+        <note priority="1" from="description">portfolio.title.cCauvery</note>
       </trans-unit>
-      <trans-unit id="portfolio.riverHealth" datatype="html">
-        <source>
-          An interactive decision-support system for assessing river health using macroinvertebrate-based indices such as GRSbios, HKHbios, BMWP, and regional variants. Designed to assist researchers, students, and stakeholders in ecological monitoring.
-        </source>
+      <trans-unit id="2321877259667610462" datatype="html">
+        <source>Official web presence of the cCauvery project — Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin at IISc. The platform provides access to river basin datasets, monitoring indicators, and basin-scale analytics.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
-          <context context-type="linenumber">X</context>
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
+        <note priority="1" from="description">portfolio.desc.cCauvery</note>
       </trans-unit>
-      <trans-unit id="portfolio.icwar" datatype="html">
-        <source>
-          Official website of the Interdisciplinary Centre for Water Research (ICWaR), IISc. Includes academic programs, research projects, faculty profiles, collaborations, and dissemination of center-led initiatives.
-        </source>
+      <trans-unit id="8956959451216764947" datatype="html">
+        <source>River Health Bio Assessment System</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
-          <context context-type="linenumber">X</context>
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">21</context>
         </context-group>
+        <note priority="1" from="description">portfolio.title.riverHealth</note>
       </trans-unit>
-      <trans-unit id="portfolio.oneGroup" datatype="html">
-        <source>
-          Website of the ONe Research Group led by Prof. Praveen C. Ramamurthy at the Department of Materials Engineering, IISc. Designed to showcase ongoing research, publications, and collaborative projects in sustainability and energy.
-        </source>
+      <trans-unit id="6541096593060398696" datatype="html">
+        <source>An interactive decision-support system for assessing river health using macroinvertebrate-based indices such as GRSbios, HKHbios, BMWP, and regional variants. Designed to assist researchers, students, and stakeholders in ecological monitoring.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
-          <context context-type="linenumber">X</context>
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">22</context>
         </context-group>
+        <note priority="1" from="description">portfolio.desc.riverHealth</note>
+      </trans-unit>
+      <trans-unit id="7581752543190460278" datatype="html">
+        <source>ICWaR – IISc</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">portfolio.title.icwar</note>
+      </trans-unit>
+      <trans-unit id="4178176923674589329" datatype="html">
+        <source>Official website of the Interdisciplinary Centre for Water Research (ICWaR), IISc. Includes academic programs, research projects, faculty profiles, collaborations, and dissemination of center-led initiatives.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">portfolio.desc.icwar</note>
+      </trans-unit>
+      <trans-unit id="245449888848514357" datatype="html">
+        <source>ONe Group – IISc</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">portfolio.title.oneGroup</note>
+      </trans-unit>
+      <trans-unit id="5256922091985105893" datatype="html">
+        <source>Website of the ONe Research Group led by Prof. Praveen C. Ramamurthy at the Department of Materials Engineering, IISc. Designed to showcase ongoing research, publications, and collaborative projects in sustainability and energy.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">portfolio.desc.oneGroup</note>
       </trans-unit>
     </body>
   </file>

@@ -59,14 +59,17 @@ footer {
 .bg-teal {
   background-color: #32fddb50 !important;
 }
+
+/* Fix buttons in dark mode */
 body.dark-mode .btn-outline-primary,
 body.dark-mode .btn-outline-dark {
-  color: #fff !important;
-  border-color: #bbb !important;
+  color: #ffffff !important;
+  border-color: #ffffff66 !important;
 }
 
 body.dark-mode .btn-outline-primary:hover,
 body.dark-mode .btn-outline-dark:hover {
   background-color: #0d6efd !important;
   color: #fff !important;
+  border-color: #0d6efd !important;
 }
