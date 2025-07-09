@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://www.krishnaspeaks.in/en/</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/en/about</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/en/portfolio</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/en/blog</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/en/contact</loc>
+  </url>
+
+  <!-- Hindi Pages -->
+  <url>
+    <loc>https://www.krishnaspeaks.in/hi/</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/hi/about</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/hi/portfolio</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/hi/blog</loc>
+  </url>
+  <url>
+    <loc>https://www.krishnaspeaks.in/hi/contact</loc>
+  </url>
+
+</urlset>
