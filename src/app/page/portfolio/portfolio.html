@@ -1,0 +1,23 @@
+<section class="container-fluid p-5">
+  <h2 class="fw-bold mb-4 text-center">Portfolio</h2>
+  <p class="text-center mb-5">
+    Here are some of the tools, dashboards, and applications I've built over the years — academic, personal, and exploratory.
+  </p>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col" *ngFor="let project of projects">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.title }}</h5>
+          <p class="card-text small">{{ project.description }}</p>
+          <div class="mb-2">
+            <span class="badge text-bg-secondary me-1" *ngFor="let tech of project.tech">{{ tech }}</span>
+          </div>
+        </div>
+        <div class="card-footer bg-transparent border-0 d-flex justify-content-between">
+          <a *ngIf="project.github" [href]="project.github" target="_blank" class="btn btn-sm btn-outline-primary">GitHub</a>
+          <a *ngIf="project.demo" [href]="project.demo" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

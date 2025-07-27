@@ -1,0 +1,33 @@
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+}
+
+section.container {
+  background-color: transparent;
+  color: var(--text-color);
+  padding: 3rem 1rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card-body,
+.card-footer {
+  background-color: transparent;
+}
+
+h2, p {
+  color: var(--text-color);
+}
+

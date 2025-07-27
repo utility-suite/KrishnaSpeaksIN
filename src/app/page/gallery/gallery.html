@@ -1,0 +1,30 @@
+<section class="container-fluid p-md-5">
+  <h2 class="fw-bold text-center mb-4">Life in Frames</h2>
+  <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+    <button
+      *ngFor="let tag of allTags"
+      class="btn btn-sm text-capitalize"
+      [class.btn-primary]="tag === activeTag"
+      [class.btn-outline-primary]="tag !== activeTag"
+      (click)="selectTag(tag)">
+      {{ tag }}
+    </button>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let item of filteredItems">
+      <div class="gallery-item position-relative" (click)="openModal(item.image)">
+        <img [src]="item.image" class="img-fluid rounded shadow-sm" alt="Gallery image" />
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span>Click for Pop View</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div *ngIf="selectedImage" class="custom-modal">
+  <div class="custom-backdrop" (click)="closeModal()"></div>
+  <div class="custom-modal-content">
+    <button type="button" class="btn-close ms-auto mb-2" (click)="closeModal()"></button>
+    <img [src]="selectedImage" class="img-fluid rounded zoomed-image" alt="Zoomed Image" />
+  </div>
+</div>

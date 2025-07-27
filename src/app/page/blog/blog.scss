@@ -1,0 +1,33 @@
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.card {
+  transition: transform 0.2s;
+  background: var(--card-bg);
+  color: var(--card-text);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-outline-primary {
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+.blog-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .blog-image {
+    max-width: 90%;
+  }
+}
