@@ -2,13 +2,11 @@
   "name": "krishnaspeaksin",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "build:prod": "ng build --configuration production",
-    "deploy": "npm run build:prod && copy dist\\krishnaspeaksin\\browser\\index.html dist\\krishnaspeaksin\\browser\\404.html && npx ngh --dir dist/krishnaspeaksin/browser --cname=www.krishnaspeaks.in",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+  "start": "ng serve",
+  "build": "ng build --configuration production",
+  "deploy": "npm run build && copy dist\\krishnaspeaksin\\browser\\index.html dist\\krishnaspeaksin\\browser\\404.html && npx angular-cli-ghpages --dir=dist/krishnaspeaksin/browser --cname=www.krishnaspeaks.in",
+  "push": "git add . && git commit -m \"Auto Update\" && git push origin main",
+  "publish": "npm run push && npm run deploy"
   },
   "prettier": {
     "overrides": [
