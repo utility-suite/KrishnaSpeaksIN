@@ -2,11 +2,12 @@
   "name": "krishnaspeaksin",
   "version": "0.0.0",
   "scripts": {
-  "start": "ng serve",
-  "build": "ng build --configuration production",
-  "deploy": "npm run build && copy dist\\krishnaspeaksin\\browser\\index.html dist\\krishnaspeaksin\\browser\\404.html && npx angular-cli-ghpages --dir=dist/krishnaspeaksin/browser --cname=www.krishnaspeaks.in",
-  "push": "git add . && git commit -m \"Auto Update\" && git push origin main",
-  "publish": "npm run push && npm run deploy"
+    "start": "ng serve",
+    "prebuild": "node scripts/update-build-info.js",
+    "build": "ng build --configuration production",
+    "deploy": "npm run build && copy dist\\krishnaspeaksin\\browser\\index.html dist\\krishnaspeaksin\\browser\\404.html && npx angular-cli-ghpages --dir=dist/krishnaspeaksin/browser --cname=www.krishnaspeaks.in",
+    "push": "git add . && git commit -m \"Auto Update\" && git push origin main",
+    "publish": "npm run deploy && npm run push"
   },
   "prettier": {
     "overrides": [
@@ -20,23 +21,25 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^20.1.0",
-    "@angular/compiler": "^20.1.0",
-    "@angular/core": "^20.1.0",
-    "@angular/forms": "^20.1.0",
-    "@angular/platform-browser": "^20.1.0",
-    "@angular/router": "^20.1.0",
+    "@angular/common": "^20.1.4",
+    "@angular/compiler": "^20.1.4",
+    "@angular/core": "^20.1.4",
+    "@angular/fire": "^20.0.1",
+    "@angular/forms": "^20.1.4",
+    "@angular/platform-browser": "^20.1.4",
+    "@angular/router": "^20.1.4",
     "@fortawesome/fontawesome-free": "^7.0.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.7",
+    "firebase": "^11.10.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.1.3",
-    "@angular/cli": "^20.1.3",
-    "@angular/compiler-cli": "^20.1.0",
+    "@angular/build": "^20.1.4",
+    "@angular/cli": "^20.1.4",
+    "@angular/compiler-cli": "^20.1.4",
     "@types/jasmine": "~5.1.0",
     "angular-cli-ghpages": "^2.0.3",
     "gh-pages": "^6.3.0",

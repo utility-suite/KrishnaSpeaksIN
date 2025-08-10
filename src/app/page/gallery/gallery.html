@@ -20,6 +20,9 @@
       </div>
     </div>
   </div>
+  <button *ngIf="showScrollTop" class="scroll-top" (click)="scrollToTop()" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 </section>
 <div *ngIf="selectedImage" class="custom-modal">
   <div class="custom-backdrop" (click)="closeModal()"></div>

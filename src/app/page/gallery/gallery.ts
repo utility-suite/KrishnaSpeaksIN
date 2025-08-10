@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, HostListener} from '@angular/core';
 import { GALLERY, GalleryItem } from '../../../data-entries/gallery';
 
 @Component({
@@ -34,5 +34,14 @@ export class Gallery {
 
   closeModal(): void {
     this.selectedImage = null;
+  }
+    showScrollTop = false;
+
+  @HostListener('window:scroll')
+  onWindowScroll() {
+    this.showScrollTop = window.pageYOffset > 150;  // Show after 150px scroll
+  }
+  scrollToTop(): void {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
