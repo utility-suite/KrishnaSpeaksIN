@@ -26,6 +26,8 @@ export const GALLERY: GalleryItem[] = [
   { image: 'assets/image/gallery/IISc_Group_1.jpg', tags: ['Group', 'IISc'] },
   { image: 'assets/image/gallery/IndependenceDay.jpg', tags: ['Friends'] },
   { image: 'assets/image/gallery/JAIN_HindiEvent.jpg', tags: ['Events'] },
+  { image: 'assets/image/gallery/KapaleeshwarTemple.jpg', tags: ['View'] },
+  { image: 'assets/image/gallery/MarinaBeach_Chennai.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/MCA_Convocation.jpg', tags: ['Friends', 'Events'] },
   { image: 'assets/image/gallery/MCA_Convocation_2.jpg', tags: ['Solo', 'Events'] },
   { image: 'assets/image/gallery/Meet_2.jpg', tags: ['Teachers'] },
@@ -43,6 +45,6 @@ export const GALLERY: GalleryItem[] = [
   { image: 'assets/image/gallery/Solo_1.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/Solo_2.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/Solo_3.jpg', tags: ['Solo'] },
-  { image: 'assets/image/gallery/Solo_4.jpg', tags: ['Solo', 'Trip'] }
+  { image: 'assets/image/gallery/Solo_4.jpg', tags: ['Solo', 'Trip'] },
+  { image: 'assets/image/gallery/Vivekananda_Museum.png', tags: ['Teachers', 'Trip'] }
 ];
-
