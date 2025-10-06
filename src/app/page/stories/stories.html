@@ -1,10 +1,6 @@
 <section class="container-fluid p-md-5 py-5">
-
-  <!-- Story List -->
   <ng-container *ngIf="!selectedStory">
     <h2 class="fw-bold mb-4 text-center">Stories</h2>
-
-    <!-- Tag Filter -->
     <div class="d-flex flex-wrap gap-2 justify-content-center mb-5">
       <button
         *ngFor="let tag of allTags"
@@ -15,8 +11,6 @@
         {{ tag }}
       </button>
     </div>
-
-    <!-- Stories Grid -->
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col" *ngFor="let story of filteredStories">
         <div class="card h-100 shadow-sm btn-outline-primary">
@@ -27,22 +21,19 @@
               <span class="badge bg-secondary me-1" *ngFor="let tag of story.tags">{{ tag }}</span>
             </div>
             <p class="card-text">{{ story.summary }}</p>
-            <button class="btn btn-outline-primary btn-sm btn-primary text-light"
-                    (click)="openStory(story)">
+            <a class="btn btn-outline-primary btn-sm btn-primary text-light"
+               [routerLink]="['/stories', story.slug]">
               Read More
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </ng-container>
-
-  <!-- Single Story View -->
   <div *ngIf="selectedStory" class="container py-4 px-md-5">
-    <button class="btn btn-outline-primary mb-4" (click)="backToList()">
+    <a class="btn btn-outline-primary mb-4" [routerLink]="['/stories']">
       ← Back to Stories
-    </button>
-
+    </a>
     <div class="text-center mb-4">
       <h1 class="fw-bold">{{ selectedStory.title }}</h1>
       <p class="small">
@@ -55,11 +46,8 @@
         </span>
       </div>
     </div>
-
-    <!-- Story Content -->
     <div>
       <article [innerHTML]="storyHtml"></article>
     </div>
   </div>
-
 </section>

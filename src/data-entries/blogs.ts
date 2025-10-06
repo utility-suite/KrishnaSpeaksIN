@@ -11,6 +11,37 @@ export interface BlogEntry {
 
 export const blogData: BlogEntry[] = [
   {
+    slug: "peace-in-retrospect",
+    image: "assets/image/blog/PeaceInRetrospect.png",
+    date: "2025-10-05",
+    author: "Krishna Kumar Pandey",
+    title: "Peace in Retrospect: The Calm that Comes from Trusting the Dots",
+    description: "How the timeless wisdom of the Bhagavad Gita and the modern insight of Steve Jobs converge to teach us the art of calm through trust in time.",
+    tags: ["Mindset", "Philosophy", "Peace", "Life Lessons"],
+    content: [
+            ` <p class="mb-4">There are two statements that anchor peace within me. The first comes from the <em>Bhagavad Gita</em>: “Whatever happened, happened for good. Whatever is happening, is happening for good. Whatever will happen, will also happen for good.” The second comes from Steve Jobs: “You can’t connect the dots looking forward; you can only connect them looking backward.” Though spoken in different eras, both speak the same truth that peace lives in trust, not in control.</p>
+              <h4 class="font-semibold mt-6 mb-2">The Weight of the Present Moment</h4>
+              <p class="mb-4">In moments of adversity, the question that rises almost instinctively is, “Why is this happening to me?” Pain and uncertainty blur reason. The mind wants explanations, not patience. Yet, when we look back at our lives, we find that the very events that once broke us often built us. What felt like chaos was quietly clearing the path for clarity. What looked like loss was redirecting us toward purpose. The pain that seemed unnecessary was in fact preparing us.</p>
+              <p class="mb-4">When viewed through the lens of hindsight, the dots align perfectly. Every missed opportunity, every failure, every detour becomes part of a larger pattern that was invisible in the moment but inevitable in meaning.</p>
+              <h4 class="font-semibold mt-6 mb-2">The Wisdom of Time</h4>
+              <p class="mb-4">The <em>Bhagavad Gita</em> teaches detachment, not from effort but from outcome. When we stop resisting the present, we stop suffering twice, once from the event and again from our judgment of it. Time has its own rhythm of revealing why things happened as they did. What seems unfair today often proves to be a favor in disguise when viewed from tomorrow.</p>
+              <p class="mb-4">Steve Jobs echoed the same wisdom in modern words. He trusted that the scattered experiences of his life, from dropping out of college to studying calligraphy, would someday connect. And they did. The typography that made Apple products beautiful was born from dots that only made sense in retrospect.</p>
+              <h4 class="font-semibold mt-6 mb-2">Calm Through Trust</h4>
+              <p class="mb-4">Peace is not found in the absence of problems but in the presence of perspective. When we trust that today’s uncertainty is part of tomorrow’s pattern, we stop fighting the flow of life. Acceptance does not mean giving up; it means giving in to the wisdom of time. Every event, pleasant or painful, carries a hidden purpose. Our only task is to live through it with awareness and faith.</p>
+              <p class="mb-4">In the same way we understand old memories with maturity, we will someday understand today’s confusion with gratitude. That realization is the seed of calm, the ability to stay composed even when the picture is incomplete.</p>
+              <h4 class="font-semibold mt-6 mb-2">Living with Retrospective Peace</h4>
+              <ul class="list-disc list-inside mb-4">
+                <li>Trust that what feels wrong today might reveal its rightness tomorrow.</li>
+                <li>Pause before asking “Why me?” and instead ask “What could this be preparing me for?”</li>
+                <li>Let go of the need to control every outcome; focus on playing your part with sincerity.</li>
+                <li>When the dots don’t connect yet, keep walking. They always do, just later.</li>
+              </ul>
+              <h4 class="font-semibold mt-6 mb-2">Final Thought</h4>
+              <p class="mb-4">Both the <em>Bhagavad Gita</em> and Steve Jobs remind us of one universal truth: peace is not about predicting the future, it is about trusting it. The past shaped us, the present tests us, and the future will make sense of it all. The dots will connect, and when they do, even our struggles will appear as stepping stones of grace.</p>
+              <p class="mt-6">Trust the timing of your life. Have faith in the unseen pattern. Peace is not found by controlling the dots but by believing that one day they will all align. - <em>Krishna from KrishnaSpeaksIN</em></p> `
+    ]
+  },
+  {
     slug: "never-miss-twice",
     image: "assets/image/blog/NeverMissTwice.png",
     date: "2025-09-28",
