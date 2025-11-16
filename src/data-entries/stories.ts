@@ -10,6 +10,29 @@ export interface StoryEntry {
 
 export const storiesData: StoryEntry[] = [
     {
+        slug: "when-words-weighed-more-than-punishment",
+        date: "2025-11-01",
+        author: "Krishna Kumar Pandey",
+        title: "When Words Weighed More Than Punishment",
+        summary: "A rare reprimand from a father becomes a lifelong lesson in values and restraint.",
+        tags: ["Parenting", "Discipline", "Values", "Life Lessons", "Inspiration"],
+        content: [
+            "<p>My father has always been a man of discipline. Years in the security forces shaped him into someone calm, precise, and unshakable in his sense of right and wrong. Yet for all his firmness, he never raised his hand against me. Not once, as far as I remember. His authority never needed punishment. His silence, his words, and his gaze carried enough weight to teach lessons that lasted long after the moment had passed.</p>",
+            "<p>It was around 2010 or 2011. I was in seventh or eighth standard then. Those were simpler times when not every student had their own phone. We used to share our parents’ numbers so classmates could reach us for schoolwork or updates. Being the class representative, my mother’s number was shared with everyone. My father, being in the security forces, was away most of the year and only visited for a couple of months annually.</p>",
+            "<p>That day, he was home on leave. We were sitting together after lunch, talking, when the phone rang. Since it was closer to me, I picked it up. On the other end was a classmate. At first, the conversation was ordinary, but soon his tone changed. He began using foul words, likely trying to impress friends around him. It was the kind of childish arrogance that needed an audience. I felt uncomfortable and restless, especially because my father was sitting right beside me.</p>",
+            "<p>Pretending that the signal was weak, I got up and moved into another room, closing the door behind me. What I did not notice was that my father quietly followed and stood outside, listening. Inside the room, I let my irritation take over. I began replying in the same language, word for word, determined to give back exactly what I had received. I wanted to prove that I could not be disrespected. A few minutes later, the call ended, and I felt I had somehow won that exchange.</p>",
+            "<p>I came out and saw my father sitting on the bed, calm as always. I thought the matter was over. But then he looked at me and asked quietly, “Did I fail somewhere in your upbringing?”</p>",
+            "<p>His words froze me. I stood still, unsure what to say. “What do you mean?” I asked hesitantly.</p>",
+            "<p>He looked at me for a moment before replying, “I heard how you were talking to that boy. Is that how we have taught you to speak?”</p>",
+            "<p>I could feel tears welling up. “But he was talking to me like that,” I said softly. “I only replied the same way. He wanted to show me lower, so I made sure he didn’t succeed.”</p>",
+            "<p>My father nodded slightly and said, “You might have balanced the insult, but in doing so, you lowered yourself. When we let go of our values just to respond in someone else’s language, we lose what defines us. You do not have to match others in behavior. You only have to stay true to who you are.”</p>",
+            "<p>There was no anger in his voice, no harshness. Just calm disappointment wrapped in quiet wisdom. That was enough. I remember sitting there, tears rolling down, unable to look at him. He had not scolded me, yet I felt the weight of the moment more than any punishment could have brought.</p>",
+            "<p>That day, I learned something that stayed with me. Strength is not in reacting louder, but in holding your ground with dignity. True power lies in restraint, in refusing to lose yourself while trying to prove a point.</p>",
+            "<p>My father could have shouted or punished me, but he didn’t. He let his words and silence do the teaching. Even today, whenever I face provocation or disrespect, his voice echoes in my mind. “Whatever happens, hold on to your values. They define you, not those who test them.”</p>",
+            "<p>That day, he taught me that real strength is quiet. It doesn’t shout, it doesn’t retaliate. It simply stays steady and lets character speak for itself. It was a lesson that needed no punishment, only a father’s wisdom and a son’s realization.</p>"
+        ]
+    },
+    {
         slug: "language-of-the-heart",
         date: "2025-10-25",
         author: "Krishna Kumar Pandey",

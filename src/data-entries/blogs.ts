@@ -11,6 +11,35 @@ export interface BlogEntry {
 
 export const blogData: BlogEntry[] = [
   {
+    slug: "decisions-finding-their-truth",
+    image: "assets/image/blog/RightWrongCycle.png",
+    date: "2025-11-16",
+    author: "Krishna Kumar Pandey",
+    title: "When Decisions Find Their Truth: The Dance of Right, Wrong, and the Unrevealed Phase",
+    description: "Some choices feel right, others feel wrong, yet most reveal their truth only with time. When intention stays pure, outcomes become lessons instead of judgments.",
+    tags: ["Philosophy", "Life Lessons", "Self Awareness", "Perspective", "Inner Growth"],
+    content: [
+            ` <p class="mb-4">Not every decision announces its meaning immediately. Some feel like the right move until life shifts, unraveling our certainty. Others appear misguided in the beginning, only to become the reason our path took a wiser turn. And then, there are choices that stand in silence for a long time, neither blessing nor burden, simply waiting to reveal what they truly are. This is the Unrevealed Phase, where decisions pause before they declare their truth.</p>
+              <p class="mb-4">We are quick to label our actions, but life unfolds too slowly to justify such haste. Right and wrong are not fixed states. They are conclusions drawn only after time has reshaped the landscape. The one thing that does not shift is intention. A clean intention keeps every decision honest, regardless of how its outcome behaves.</p>
+              <h4 class="font-semibold mt-6 mb-2">How Right Turns into Wrong, and Wrong Turns into Right</h4>
+              <p class="mb-4">Many choices are born from sincerity. We act with care, logic, or compassion, holding a genuine desire to do what feels correct. In that moment, the decision is right because our heart is right. But life is dynamic. People evolve, circumstances flip, truths deepen. Suddenly, the decision that once matched our inner compass begins to feel misplaced. It is not the decision that failed, only the context changed.</p>
+              <p class="mb-4">And then there are decisions that feel uncertain or even reckless at first. They emerge from instinct, discomfort, or the quiet urging of something we cannot yet name. Others question us, and sometimes we question ourselves. Yet time, in its unfailing wisdom, shows us why that step was necessary. What was once called wrong becomes the very choice that protected, redirected, or strengthened us.</p>
+              <p class="mb-4">Time has a way of turning doubt into understanding. It reveals the wisdom that was hidden behind the first impulse.</p>
+              <h4 class="font-semibold mt-6 mb-2">The Unrevealed Phase</h4>
+              <p class="mb-4">Some decisions simply remain undecided for a while. They neither uplift nor trouble us. They sit in a space of quiet neutrality, waiting for life to provide context. This phase often feels uncomfortable because the mind seeks immediate clarity. Yet this pause is where our inner maturity develops. It teaches patience, resilience, and the grace of holding space for the unknown.</p>
+              <p class="mb-4">Here, intention becomes our only steady foundation. When intention is pure, we can stand through uncertainty with a calm heart. A clean decision can survive a delayed answer.</p>
+              <h4 class="font-semibold mt-6 mb-2">A Practical Example</h4>
+              <p class="mb-4">Imagine being offered a prestigious job that impresses everyone around you. Rejecting it seems unwise, even careless. You struggle to explain your hesitation, yet something inside feels unsettled. You choose to honor that feeling. As months pass, the company faces instability, or the culture becomes suffocating for those who joined. Meanwhile, you find an opportunity that aligns far better with your growth and peace.</p>
+              <p class="mb-4">A decision once criticized now appears wise. Nothing about the choice changed, only your understanding of why it was right. Time simply unveiled the truth.</p>
+              <h4 class="font-semibold mt-6 mb-2">Intention Above Outcome</h4>
+              <p class="mb-4">Outcomes are shaped by forces we cannot predict, including timing, environment, and other people. But intention is fully ours. When intention is sincere, even a difficult outcome does not crush the soul. It teaches. It strengthens. It refines. And when intention is impure, no outcome brings genuine peace, even if the world applauds it.</p>
+              <p class="mb-4">This is why pure intention matters more than perfect results. Intention is the inner truth of the decision. Outcome is only the outer story.</p>
+              <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4>
+              <p class="mb-4">Right, wrong, and the Unrevealed Phase are not enemies. They are companions in our evolution. Each plays its role in shaping our understanding of life. What matters is not how quickly a decision rewards us but how honestly it was made. A pure heart leaves no stains, even when the road gets difficult. A sincere choice remains a source of quiet confidence long after the world has formed its judgments.</p>
+              <p class="mt-6">So choose with clarity, act with sincerity, and trust that time will reveal the meaning. Outcomes may change, but the truth of your intention remains yours forever. - <em>Krishna from KrishnaSpeaksIN</em></p> `
+    ]
+  },
+  {
     slug: "love-the-beautiful-distortion",
     image: "assets/image/blog/LoveTheBeautifulDistortion.png",
     date: "2025-11-09",
