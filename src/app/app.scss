@@ -13,3 +13,6 @@
     height: 50px;
   }
 }
+.navbar-nav {
+  font-size: clamp(1.0rem, 1.2vw, 1.5rem);
+}
