@@ -7,8 +7,9 @@ export const GALLERY: GalleryItem[] = [
   { image: 'assets/image/gallery/HindiCompetition_IISc.JPG', tags: ['IISc','Awards'] },
   { image: 'assets/image/gallery/VidhanSoudha.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/GhantaGhar_Night.jpg', tags: ['View'] },
-  { image: 'assets/image/gallery/GhantaGhar.jpg', tags: ['Solo'] },
+  { image: 'assets/image/gallery/GhantaGhar.jpg', tags: ['Solo', 'Trip'] },
   { image: 'assets/image/gallery/ShalimarGarden.jpg', tags: ['View'] },
+  { image: 'assets/image/gallery/SAC2.jpg', tags: ['IISc', 'Mentors', 'Friends'] },
   { image: 'assets/image/gallery/AcharyaCodingCompetition.jpg', tags: ['Awards'] },
   { image: 'assets/image/gallery/AlumniTalk.JPG', tags: ['Guest Talk'] },
   { image: 'assets/image/gallery/BCA_BOS.jpeg', tags: ['Friends', 'Events'] },
@@ -51,5 +52,7 @@ export const GALLERY: GalleryItem[] = [
   { image: 'assets/image/gallery/Solo_2.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/Solo_3.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/Solo_4.jpg', tags: ['Solo', 'Trip'] },
+  { image: 'assets/image/gallery/MaduraiJn.JPG', tags: ['Solo', 'Trip'] },
+  { image: 'assets/image/gallery/Dhanush.JPG', tags: ['Solo', 'Trip'] },
   { image: 'assets/image/gallery/Vivekananda_Museum.png', tags: ['Teachers', 'Trip'] }
 ];
