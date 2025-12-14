@@ -49,36 +49,36 @@ export const blogData: BlogEntry[] = [
   //             <p class="mt-6">Ideologies are far bigger than people. Choose the larger fight. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
   //   ]
   // },
-  // {
-  //   slug: "aim-high-and-avoid-distractions",
-  //   image: "assets/image/blog/AimHigh.png",
-  //   date: "2025-12-14",
-  //   author: "Krishna Kumar Pandey",
-  //   title: "Aim High: The Goal That Lifts You Above Distraction",
-  //   description: "A high aim shapes your focus, refines your choices, and protects you from unnecessary distractions, even if the final outcome changes.",
-  //   tags: ["Motivation", "Life Lessons", "Focus", "Personal Growth"],
-  //   content: [
-  //           ` <p class="mb-2">There is a powerful shift that happens the moment you choose a goal that stands far above the ordinary. The higher your aim, the smaller your distractions become. Even if you never reach the exact peak you dream of, the aspiration itself transforms you. It sharpens the mind, aligns your choices, and filters out everything that does not serve your growth.</p>
-  //             <p class="mb-4">A mind without direction wanders. A mind with a high purpose develops focus naturally. You do not fight distractions. You outgrow them. This is the quiet power of aiming high.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">The Teenage Example That Explains the Truth</h4>
-  //             <p class="mb-2">Think of your teenage years. Suppose you come across someone who becomes an ideal in your mind. Not a fantasy, but a standard you hold for your future. You tell yourself at a young age, “If I ever marry someone, it will be someone like this.” Deep down, you know they may be beyond your reach. Yet the aspiration remains.</p>
-  //             <p class="mb-2">Suddenly, you move through school and college with a sense of clarity that others do not possess. While people around you get entangled in temporary relationships, emotional drama, and the boyfriend girlfriend games that consume time and peace, you remain untouched. Not because of lack of opportunities, but because your inner standard refuses to settle for anything less than what you decided for yourself.</p>
-  //             <p class="mb-4">Whether you marry that person or not becomes irrelevant. The real victory is the journey. The aspiration preserved you. It saved you from unnecessary emotional indulgence. It helped you avoid distractions during your most vulnerable years. Your aim acted like a shield.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">A High Aim Builds Inner Gravity</h4>
-  //             <p class="mb-2">When you aim low, everything feels important. Every distraction looks attractive. Every detour looks harmless. But the moment you choose a high aim, your priorities rearrange themselves. A higher purpose creates its own gravity. It pulls your energy upward. It makes your time precious. It silences impulses. You naturally become selective about what enters your life and what does not.</p>
-  //             <p class="mb-4">This is why people with strong ambitions waste less time. Not because they force themselves to avoid distractions, but because distractions have no space in the orbit of a larger dream.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">The Silent Transformation</h4>
-  //             <p class="mb-2">A high aim shapes more than your achievements. It shapes your character. It strengthens your discipline. It deepens your emotional maturity. It refines your taste, your habits, your routines, and even the kind of people you attract into your life.</p>
-  //             <p class="mb-4">You begin valuing your time differently. You begin valuing yourself differently. Even if your goal evolves or changes later, the person you become on the way stays with you forever.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">It Is Not About Reaching the Top</h4>
-  //             <p class="mb-2">Life does not guarantee that every high goal will be achieved exactly as imagined. The person you admired may move on. The dream you carried may shift direction. Circumstances may shape new priorities.</p>
-  //             <p class="mb-4">But by then, you will have risen far above the level you would have reached with smaller ambitions. The outcome may change, but the inner growth does not fade.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4>
-  //             <p class="mb-2">Aim high, not because success is guaranteed, but because a high aim cleans your path. It removes noise, weakens temptations, and keeps you grounded in purpose. The teenage mind that sets a noble standard avoids chaos. The student with a big dream avoids wasting time. The person with long-term vision avoids short-term indulgence.</p>
-  //             <p class="mb-2">Aiming high is not about the destination alone. It is about the transformation it creates within you. Even if you do not reach the exact peak you imagined, you will still stand at a height impossible to reach with a smaller goal. That rise is the real victory.</p>
-  //             <p class="mt-6">Set your aim high. You may reach the summit, or life may take you elsewhere. But either way, you will walk with clarity, dignity, and purpose. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
-  //   ]
-  // },
+  {
+    slug: "aim-high-and-avoid-distractions",
+    image: "assets/image/blog/AimHigh.png",
+    date: "2025-12-14",
+    author: "Krishna Kumar Pandey",
+    title: "Aim High: The Goal That Lifts You Above Distraction",
+    description: "A high aim shapes your focus, refines your choices, and protects you from unnecessary distractions, even if the final outcome changes.",
+    tags: ["Motivation", "Life Lessons", "Focus", "Personal Growth"],
+    content: [
+            ` <p class="mb-2">There is a powerful shift that happens the moment you choose a goal that stands far above the ordinary. The higher your aim, the smaller your distractions become. Even if you never reach the exact peak you dream of, the aspiration itself transforms you. It sharpens the mind, aligns your choices, and filters out everything that does not serve your growth.</p>
+              <p class="mb-4">A mind without direction wanders. A mind with a high purpose develops focus naturally. You do not fight distractions. You outgrow them. This is the quiet power of aiming high.</p>
+              <h4 class="font-semibold mt-6 mb-2">The Teenage Example That Explains the Truth</h4>
+              <p class="mb-2">Think of your teenage years. Suppose you come across someone who becomes an ideal in your mind. Not a fantasy, but a standard you hold for your future. You tell yourself at a young age, “If I ever marry someone, it will be someone like this.” Deep down, you know they may be beyond your reach. Yet the aspiration remains.</p>
+              <p class="mb-2">Suddenly, you move through school and college with a sense of clarity that others do not possess. While people around you get entangled in temporary relationships, emotional drama, and the boyfriend girlfriend games that consume time and peace, you remain untouched. Not because of lack of opportunities, but because your inner standard refuses to settle for anything less than what you decided for yourself.</p>
+              <p class="mb-4">Whether you marry that person or not becomes irrelevant. The real victory is the journey. The aspiration preserved you. It saved you from unnecessary emotional indulgence. It helped you avoid distractions during your most vulnerable years. Your aim acted like a shield.</p>
+              <h4 class="font-semibold mt-6 mb-2">A High Aim Builds Inner Gravity</h4>
+              <p class="mb-2">When you aim low, everything feels important. Every distraction looks attractive. Every detour looks harmless. But the moment you choose a high aim, your priorities rearrange themselves. A higher purpose creates its own gravity. It pulls your energy upward. It makes your time precious. It silences impulses. You naturally become selective about what enters your life and what does not.</p>
+              <p class="mb-4">This is why people with strong ambitions waste less time. Not because they force themselves to avoid distractions, but because distractions have no space in the orbit of a larger dream.</p>
+              <h4 class="font-semibold mt-6 mb-2">The Silent Transformation</h4>
+              <p class="mb-2">A high aim shapes more than your achievements. It shapes your character. It strengthens your discipline. It deepens your emotional maturity. It refines your taste, your habits, your routines, and even the kind of people you attract into your life.</p>
+              <p class="mb-4">You begin valuing your time differently. You begin valuing yourself differently. Even if your goal evolves or changes later, the person you become on the way stays with you forever.</p>
+              <h4 class="font-semibold mt-6 mb-2">It Is Not About Reaching the Top</h4>
+              <p class="mb-2">Life does not guarantee that every high goal will be achieved exactly as imagined. The person you admired may move on. The dream you carried may shift direction. Circumstances may shape new priorities.</p>
+              <p class="mb-4">But by then, you will have risen far above the level you would have reached with smaller ambitions. The outcome may change, but the inner growth does not fade.</p>
+              <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4>
+              <p class="mb-2">Aim high, not because success is guaranteed, but because a high aim cleans your path. It removes noise, weakens temptations, and keeps you grounded in purpose. The teenage mind that sets a noble standard avoids chaos. The student with a big dream avoids wasting time. The person with long-term vision avoids short-term indulgence.</p>
+              <p class="mb-2">Aiming high is not about the destination alone. It is about the transformation it creates within you. Even if you do not reach the exact peak you imagined, you will still stand at a height impossible to reach with a smaller goal. That rise is the real victory.</p>
+              <p class="mt-6">Set your aim high. You may reach the summit, or life may take you elsewhere. But either way, you will walk with clarity, dignity, and purpose. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
+    ]
+  },
   {
     slug: "bondage-is-mutual-serving-the-servant",
     image: "assets/image/blog/BondageIsMutual.png",
