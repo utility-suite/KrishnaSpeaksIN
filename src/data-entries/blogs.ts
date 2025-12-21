@@ -10,45 +10,45 @@ export interface BlogEntry {
 }
 
 export const blogData: BlogEntry[] = [
-  // {
-  //   slug: "ideologies-are-bigger-than-people",
-  //   image: "assets/image/blog/IdeologiesBiggerThanPeople.png",
-  //   date: "2025-12-21",
-  //   author: "Krishna Kumar Pandey",
-  //   title: "Ideologies Are Bigger Than People: Choose Purpose Over Enmity",
-  //   description: "If you must fight, fight ideologies not individuals. Let go of small conflicts and save your energy for ideas that truly shape the world.",
-  //   tags: ["Philosophy", "Life Lessons", "Emotional Intelligence", "Purpose"],
-  //   content: [
-  //           ` <p class="mb-2">Life becomes heavy when we start fighting people. Every argument, every clash of ego, every moment spent proving someone wrong leaves behind bitterness that takes longer to dissolve than we expect. But when we shift our focus from individuals to the underlying ideas and ideologies governing behavior, something remarkable happens. We stop creating enemies and start cultivating purpose.</p> 
-  //             <p class="mb-4">People are temporary. Ideologies are long term. And if we must fight, it is wiser to fight the idea rather than the person carrying it.</p> 
-  //             <h4 class="font-semibold mt-6 mb-2">People Are Not the Problem, Ideas Are</h4> 
-  //             <p class="mb-2">Every conflict, small or big, begins with a difference in thinking. People act based on their beliefs, conditioning, and understanding of the world. When we fight them, we attack the surface. When we address the ideology behind the action, we reach the root.</p> 
-  //             <p class="mb-2">Fighting people leads to division. Fighting harmful ideologies leads to evolution.</p> 
-  //             <p class="mb-4">You cannot change a person by overpowering them. But you can inspire change by challenging an idea thoughtfully, calmly, and rationally. This is why debates matter more than quarrels, perspectives matter more than accusations, and purpose matters more than ego.</p> 
-  //             <h4 class="font-semibold mt-6 mb-2">The Stress of Small Battles</h4> 
-  //             <p class="mb-2">Most of our daily conflict is not ideological. It is emotional friction born from trivial situations.</p> 
-  //             <p class="mb-2">A bus conductor speaks harshly. A colleague answers rudely. The cleaner does not clean your desk properly. The shopkeeper is impatient. Someone bumps into you in a queue.</p> 
-  //             <p class="mb-2">None of these are worth your energy.</p> <p class="mb-2">You argue for five minutes. Your body stresses for the next hour. Your mind replays the incident for the entire day. All this for something that could have been ignored, resolved, or handled with calm.</p> 
-  //             <p class="mb-4">The truth is simple. These are small things that do not deserve your attention. Cleaning your desk yourself takes less time than arguing about it. Letting go of a rude comment saves more peace than returning one. Choosing silence protects your inner balance more than winning a petty fight ever will.</p> 
-  //             <h4 class="font-semibold mt-6 mb-2">The Wisdom of Picking Battles</h4> 
-  //             <p class="mb-2">The world is full of noise. If you fight every small thing, you drain your energy before reaching the battles that truly matter.</p> 
-  //             <p class="mb-2">Great people pick their battles. Mature minds save their fire for meaningful causes. Purposeful individuals choose when to speak and when to walk away.</p> 
-  //             <p class="mb-4">Your mental energy is limited. Your emotional bandwidth is precious. Why spend it on things that do not improve your life or the world. When you choose your battles based on ideology, not irritation, you stop reacting and start responding with intention.</p> 
-  //             <h4 class="font-semibold mt-6 mb-2">Fighting Ideologies Elevates You</h4> 
-  //             <p class="mb-2">When you challenge an ideology, you are not fighting one person; you are improving the larger system of thought. You are engaging with something bigger than ego, bigger than momentary anger.</p> 
-  //             <p class="mb-2">Fighting ideologies creates clarity. Fighting ideologies expands wisdom. Fighting ideologies sharpens your understanding. Fighting ideologies makes you a contributor, not a complainer.</p> 
-  //             <p class="mb-4">And because the battle is impersonal, it does not create enemies. It creates purpose, direction, and conviction.</p> 
-  //             <h4 class="font-semibold mt-6 mb-2">The Path of Self Reliance</h4> 
-  //             <p class="mb-2">Sometimes the best way to fight a problem is to outgrow it.</p> 
-  //             <p class="mb-2">When you clean your own desk, you become self sufficient. When you ignore small provocations, you become emotionally strong. When you stop arguing over trivial things, you protect your peace. When you choose calm over chaos, you evolve.</p> 
-  //             <p class="mb-4">Being self reliant does not mean doing everything alone. It means choosing independence over unnecessary conflict. You cannot control others. But you can control your reactions. And that is where true power begins.</p> 
-  //             <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4> 
-  //             <p class="mb-2">Ideologies last longer than individuals. If you must fight, fight harmful thoughts, not the people who temporarily carry them. People will change, people will grow, people will fade. But the ideology you challenge or defend will stay and influence many more.</p> 
-  //             <p class="mb-2">Let small problems pass through you like wind. Reserve your energy for ideas that shape societies, influence mindsets, and build futures.</p> 
-  //             <p class="mb-2">Do not fight for ego. Fight for purpose. You will live lighter, think deeper, and rise higher.</p> 
-  //             <p class="mt-6">Ideologies are far bigger than people. Choose the larger fight. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
-  //   ]
-  // },
+  {
+    slug: "ideologies-are-bigger-than-people",
+    image: "assets/image/blog/IdeologiesBiggerThanPeople.png",
+    date: "2025-12-21",
+    author: "Krishna Kumar Pandey",
+    title: "Ideologies Are Bigger Than People: Choose Purpose Over Enmity",
+    description: "If you must fight, fight ideologies not individuals. Let go of small conflicts and save your energy for ideas that truly shape the world.",
+    tags: ["Philosophy", "Life Lessons", "Emotional Intelligence", "Purpose"],
+    content: [
+            ` <p class="mb-2">Life becomes heavy when we start fighting people. Every argument, every clash of ego, every moment spent proving someone wrong leaves behind bitterness that takes longer to dissolve than we expect. But when we shift our focus from individuals to the underlying ideas and ideologies governing behavior, something remarkable happens. We stop creating enemies and start cultivating purpose.</p> 
+              <p class="mb-4">People are temporary. Ideologies are long term. And if we must fight, it is wiser to fight the idea rather than the person carrying it.</p> 
+              <h4 class="font-semibold mt-6 mb-2">People Are Not the Problem, Ideas Are</h4> 
+              <p class="mb-2">Every conflict, small or big, begins with a difference in thinking. People act based on their beliefs, conditioning, and understanding of the world. When we fight them, we attack the surface. When we address the ideology behind the action, we reach the root.</p> 
+              <p class="mb-2">Fighting people leads to division. Fighting harmful ideologies leads to evolution.</p> 
+              <p class="mb-4">You cannot change a person by overpowering them. But you can inspire change by challenging an idea thoughtfully, calmly, and rationally. This is why debates matter more than quarrels, perspectives matter more than accusations, and purpose matters more than ego.</p> 
+              <h4 class="font-semibold mt-6 mb-2">The Stress of Small Battles</h4> 
+              <p class="mb-2">Most of our daily conflict is not ideological. It is emotional friction born from trivial situations.</p> 
+              <p class="mb-2">A bus conductor speaks harshly. A colleague answers rudely. The cleaner does not clean your desk properly. The shopkeeper is impatient. Someone bumps into you in a queue.</p> 
+              <p class="mb-2">None of these are worth your energy.</p> <p class="mb-2">You argue for five minutes. Your body stresses for the next hour. Your mind replays the incident for the entire day. All this for something that could have been ignored, resolved, or handled with calm.</p> 
+              <p class="mb-4">The truth is simple. These are small things that do not deserve your attention. Cleaning your desk yourself takes less time than arguing about it. Letting go of a rude comment saves more peace than returning one. Choosing silence protects your inner balance more than winning a petty fight ever will.</p> 
+              <h4 class="font-semibold mt-6 mb-2">The Wisdom of Picking Battles</h4> 
+              <p class="mb-2">The world is full of noise. If you fight every small thing, you drain your energy before reaching the battles that truly matter.</p> 
+              <p class="mb-2">Great people pick their battles. Mature minds save their fire for meaningful causes. Purposeful individuals choose when to speak and when to walk away.</p> 
+              <p class="mb-4">Your mental energy is limited. Your emotional bandwidth is precious. Why spend it on things that do not improve your life or the world. When you choose your battles based on ideology, not irritation, you stop reacting and start responding with intention.</p> 
+              <h4 class="font-semibold mt-6 mb-2">Fighting Ideologies Elevates You</h4> 
+              <p class="mb-2">When you challenge an ideology, you are not fighting one person; you are improving the larger system of thought. You are engaging with something bigger than ego, bigger than momentary anger.</p> 
+              <p class="mb-2">Fighting ideologies creates clarity. Fighting ideologies expands wisdom. Fighting ideologies sharpens your understanding. Fighting ideologies makes you a contributor, not a complainer.</p> 
+              <p class="mb-4">And because the battle is impersonal, it does not create enemies. It creates purpose, direction, and conviction.</p> 
+              <h4 class="font-semibold mt-6 mb-2">The Path of Self Reliance</h4> 
+              <p class="mb-2">Sometimes the best way to fight a problem is to outgrow it.</p> 
+              <p class="mb-2">When you clean your own desk, you become self sufficient. When you ignore small provocations, you become emotionally strong. When you stop arguing over trivial things, you protect your peace. When you choose calm over chaos, you evolve.</p> 
+              <p class="mb-4">Being self reliant does not mean doing everything alone. It means choosing independence over unnecessary conflict. You cannot control others. But you can control your reactions. And that is where true power begins.</p> 
+              <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4> 
+              <p class="mb-2">Ideologies last longer than individuals. If you must fight, fight harmful thoughts, not the people who temporarily carry them. People will change, people will grow, people will fade. But the ideology you challenge or defend will stay and influence many more.</p> 
+              <p class="mb-2">Let small problems pass through you like wind. Reserve your energy for ideas that shape societies, influence mindsets, and build futures.</p> 
+              <p class="mb-2">Do not fight for ego. Fight for purpose. You will live lighter, think deeper, and rise higher.</p> 
+              <p class="mt-6">Ideologies are far bigger than people. Choose the larger fight. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
+    ]
+  },
   {
     slug: "aim-high-and-avoid-distractions",
     image: "assets/image/blog/AimHigh.png",
