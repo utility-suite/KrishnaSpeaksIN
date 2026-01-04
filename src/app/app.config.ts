@@ -18,6 +18,8 @@ export const appConfig: ApplicationConfig = {
       { path: 'blog/:slug', loadComponent: () => import('./page/blog/blog').then(m => m.Blog) },
       { path: 'stories', loadComponent: () => import('./page/stories/stories').then(m => m.Stories) },
       { path: 'stories/:slug', loadComponent: () => import('./page/stories/stories').then(m => m.Stories) },
+      { path: 'poem', loadComponent: () => import('./page/poem/poem').then(m => m.Poem)  },
+      { path: 'poem/:slug', loadComponent: () => import('./page/poem/poem').then(m => m.Poem) },
       { path: 'contact', loadComponent: () => import('./page/contact/contact').then(m => m.Contact) },
       { path: 'gallery', loadComponent: () => import('./page/gallery/gallery').then(m => m.Gallery) },
       { path: 'hi', loadComponent: () => import('./page/hi/hi').then(m => m.Hi) },

@@ -1,0 +1,46 @@
+<section class="container-fluid p-md-5 py-5">
+
+  <!-- LIST VIEW -->
+  <div *ngIf="!selectedPoem">
+    <h2 class="fw-bold mb-4 text-center">काव्य संग्रह</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col" *ngFor="let poem of filteredPoemList">
+        <div class="card h-100 shadow-sm btn-outline-primary">
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ poem.title }}</h5>
+            <p class="small">
+              <b>कवि:</b> {{ poem.author }}
+            </p>
+            <p class="card-text">
+              {{ poem.description }}
+            </p>
+            <a
+              [routerLink]="['/poem', poem.slug]"
+              class="btn btn-outline-primary btn-sm btn-primary text-light">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SINGLE POEM VIEW -->
+  <div *ngIf="selectedPoem" class="container py-4 px-md-5">
+    <button
+      class="btn btn-outline-primary mb-4"
+      routerLink="/poem">
+      ← Back to Poems
+    </button>
+    <div class="text-center mb-4">
+      <h1 class="fw-bold">{{ selectedPoem.title }}</h1>
+      <p class="small">
+        <b>कवि:</b> {{ selectedPoem.author }}
+      </p>
+    </div>
+    <article
+        class="text-center"
+        [innerHTML]="selectedPoem.content.join('')">
+    </article>
+  </div>
+</section>
