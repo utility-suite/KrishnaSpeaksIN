@@ -10,40 +10,40 @@ export interface BlogEntry {
 }
 
 export const blogData: BlogEntry[] = [
-  // {
-  //   slug: "influencers-are-the-new-influenza",
-  //   image: "assets/image/blog/InfluencersAreTheNewInfluenza.png",
-  //   date: "2026-01-01",
-  //   author: "Krishna Kumar Pandey",
-  //   title: "Influencers Are the New Influenza",
-  //   description: "In an age flooded with voices, influence spreads faster than wisdom. This reflection questions whom we choose to follow and why discernment matters more than popularity.",
-  //   tags: ["Philosophy", "Human Behavior", "Media Literacy", "Mindfulness"],
-  //   content: [
-  //           ` <p class="mb-2">There is a quiet epidemic spreading through our minds. It does not announce itself with fever or pain. It arrives disguised as inspiration, entertainment, and aspiration. It enters through screens, settles into habits, and slowly alters how we think, decide, and desire. Influencers, once a rare source of insight, have multiplied into a daily exposure. Influence, which once strengthened thought, now often weakens immunity.</p>
-  //             <p class="mb-4">Influenza spreads fastest where resistance is low. So does unexamined influence.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">When Visibility Replaced Value</h4>
-  //             <p class="mb-2">There was a time when influence carried weight because it carried responsibility. People listened to teachers, thinkers, artists, and leaders who had walked the path they spoke about. Their words came from experience, not endorsement.</p>
-  //             <p class="mb-2">Today, visibility often replaces value. Being seen matters more than being sound. Being frequent matters more than being truthful.</p>
-  //             <p class="mb-4">The algorithm does not ask whether a voice is wise. It asks whether it is engaging. It does not reward depth. It rewards repetition. In this environment, influence spreads the way a virus does, not because it is healthy, but because it is everywhere.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">The Symptoms We Ignore</h4>
-  //             <p class="mb-2">The early symptoms are easy to miss. We begin borrowing opinions before forming our own. We dress, eat, speak, and even think based on what we consume online.</p>
-  //             <p class="mb-2">Gradually, our internal decision making weakens. We scroll instead of reflect. We follow instead of question.</p>
-  //             <p class="mb-4">Like influenza, this influence thrives in crowds. When millions follow someone, it feels safe to follow too. But mass adoption has never been a measure of truth. Entire classrooms can catch the flu together. That does not make the illness a curriculum.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">Influence Without Immunity</h4>
-  //             <p class="mb-2">True influence builds immunity. It strengthens your ability to decide, not replaces it. It leaves you clearer, calmer, and more capable of standing alone.</p>
-  //             <p class="mb-2">False influence behaves like infection. It creates dependency. It demands constant exposure. Miss a few posts and you feel out of touch, behind, incomplete.</p>
-  //             <p class="mb-4">Consider a simple example. A student preparing for an important exam follows multiple so called study influencers. One says wake up at 4 am or you are lazy. Another says sleep is for the weak. A third promotes extreme schedules and overnight success stories. Instead of understanding their own rhythm, the student copies fragments from all of them. The result is not discipline, but anxiety. Not clarity, but confusion.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">Choosing Your Influencers Carefully</h4>
-  //             <p class="mb-2">The influencers move on to the next reel. The student carries the burnout. This is influence without accountability.</p>
-  //             <p class="mb-2">Just as we vaccinate against disease, we must build filters against influence. Not every visible person deserves access to your mind.</p>
-  //             <p class="mb-4">Before calling someone an influencer, ask what improves in your life after listening to them. Your understanding or your insecurity. Your patience or your panic. Your depth or your dependence.</p>
-  //             <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4>
-  //             <p class="mb-2">Influenza reminds us of an old truth. Prevention is wiser than cure. In the same way, conscious consumption is wiser than blind following.</p>
-  //             <p class="mb-2">You cannot stop influence from existing, just as you cannot stop viruses from existing. But you can strengthen your immunity.</p>
-  //             <p class="mb-2">Not every trending voice deserves your trust. Not every large following deserves your faith.</p>
-  //             <p class="mb-2">Influence should nourish thought, not infect it. Choose voices that make you stronger when they are gone. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
-  //   ]
-  // },
+  {
+    slug: "influencers-are-the-new-influenza",
+    image: "assets/image/blog/InfluencersAreTheNewInfluenza.png",
+    date: "2026-01-04",
+    author: "Krishna Kumar Pandey",
+    title: "Influencers Are the New Influenza",
+    description: "In an age flooded with voices, influence spreads faster than wisdom. This reflection questions whom we choose to follow and why discernment matters more than popularity.",
+    tags: ["Philosophy", "Human Behavior", "Media Literacy", "Mindfulness"],
+    content: [
+            ` <p class="mb-2">There is a quiet epidemic spreading through our minds. It does not announce itself with fever or pain. It arrives disguised as inspiration, entertainment, and aspiration. It enters through screens, settles into habits, and slowly alters how we think, decide, and desire. Influencers, once a rare source of insight, have multiplied into a daily exposure. Influence, which once strengthened thought, now often weakens immunity.</p>
+              <p class="mb-4">Influenza spreads fastest where resistance is low. So does unexamined influence.</p>
+              <h4 class="font-semibold mt-6 mb-2">When Visibility Replaced Value</h4>
+              <p class="mb-2">There was a time when influence carried weight because it carried responsibility. People listened to teachers, thinkers, artists, and leaders who had walked the path they spoke about. Their words came from experience, not endorsement.</p>
+              <p class="mb-2">Today, visibility often replaces value. Being seen matters more than being sound. Being frequent matters more than being truthful.</p>
+              <p class="mb-4">The algorithm does not ask whether a voice is wise. It asks whether it is engaging. It does not reward depth. It rewards repetition. In this environment, influence spreads the way a virus does, not because it is healthy, but because it is everywhere.</p>
+              <h4 class="font-semibold mt-6 mb-2">The Symptoms We Ignore</h4>
+              <p class="mb-2">The early symptoms are easy to miss. We begin borrowing opinions before forming our own. We dress, eat, speak, and even think based on what we consume online.</p>
+              <p class="mb-2">Gradually, our internal decision making weakens. We scroll instead of reflect. We follow instead of question.</p>
+              <p class="mb-4">Like influenza, this influence thrives in crowds. When millions follow someone, it feels safe to follow too. But mass adoption has never been a measure of truth. Entire classrooms can catch the flu together. That does not make the illness a curriculum.</p>
+              <h4 class="font-semibold mt-6 mb-2">Influence Without Immunity</h4>
+              <p class="mb-2">True influence builds immunity. It strengthens your ability to decide, not replaces it. It leaves you clearer, calmer, and more capable of standing alone.</p>
+              <p class="mb-2">False influence behaves like infection. It creates dependency. It demands constant exposure. Miss a few posts and you feel out of touch, behind, incomplete.</p>
+              <p class="mb-4">Consider a simple example. A student preparing for an important exam follows multiple so called study influencers. One says wake up at 4 am or you are lazy. Another says sleep is for the weak. A third promotes extreme schedules and overnight success stories. Instead of understanding their own rhythm, the student copies fragments from all of them. The result is not discipline, but anxiety. Not clarity, but confusion.</p>
+              <h4 class="font-semibold mt-6 mb-2">Choosing Your Influencers Carefully</h4>
+              <p class="mb-2">The influencers move on to the next reel. The student carries the burnout. This is influence without accountability.</p>
+              <p class="mb-2">Just as we vaccinate against disease, we must build filters against influence. Not every visible person deserves access to your mind.</p>
+              <p class="mb-4">Before calling someone an influencer, ask what improves in your life after listening to them. Your understanding or your insecurity. Your patience or your panic. Your depth or your dependence.</p>
+              <h4 class="font-semibold mt-6 mb-2">Final Reflection</h4>
+              <p class="mb-2">Influenza reminds us of an old truth. Prevention is wiser than cure. In the same way, conscious consumption is wiser than blind following.</p>
+              <p class="mb-2">You cannot stop influence from existing, just as you cannot stop viruses from existing. But you can strengthen your immunity.</p>
+              <p class="mb-2">Not every trending voice deserves your trust. Not every large following deserves your faith.</p>
+              <p class="mb-2">Influence should nourish thought, not infect it. Choose voices that make you stronger when they are gone. - <em>Krishna from KrishnaSpeaksIN</em></p>  `
+    ]
+  },
   {
     slug: "surfer-or-suffer-choice-is-yours",
     image: "assets/image/blog/SurferOrSuffer.png",
