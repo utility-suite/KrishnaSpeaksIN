@@ -1,4 +1,92 @@
-import{c as h,f as E,h as _}from"./chunk-VSXNT2GC.js";import{j as x,k as P,n as y}from"./chunk-VCAYAICW.js";import{$a as a,Ca as i,La as u,Qa as v,Ua as m,ab as n,bb as t,cb as f,mb as c,pb as o,qb as s,rb as l,vb as g,ya as d}from"./chunk-SLNWKZP3.js";var I=[{slug:"tumse-prem-hai",author:"\u0915\u0943'\u092A\u093E",title:"\u0924\u0941\u092E\u0938\u0947 \u092A\u094D\u0930\u0947\u092E \u0939\u0948",description:"\u0928\u093F\u0938\u094D\u0935\u093E\u0930\u094D\u0925, \u090F\u0915\u0924\u0930\u092B\u093C\u093E \u092A\u094D\u0930\u0947\u092E \u0915\u0940 \u0938\u094D\u0935\u0940\u0915\u0943\u0924\u093F, \u0906\u0924\u094D\u092E\u0938\u0902\u0935\u093E\u0926 \u0914\u0930 \u092C\u093F\u0928\u093E \u0936\u0930\u094D\u0924 \u092D\u093E\u0935\u0928\u093E\u0913\u0902 \u0915\u0940 \u0938\u091A\u094D\u091A\u093E\u0908 \u0915\u094B \u0935\u094D\u092F\u0915\u094D\u0924 \u0915\u0930\u0924\u0940 \u090F\u0915 \u0938\u0902\u0935\u0947\u0926\u0928\u0936\u0940\u0932 \u0939\u093F\u0902\u0926\u0940 \u0915\u0935\u093F\u0924\u093E\u0964",content:[` <div class="poem-wrapper">
+import{c as y,f as E,h as _}from"./chunk-VSXNT2GC.js";import{j as x,k as h,n as P}from"./chunk-VCAYAICW.js";import{$a as b,Ca as i,La as u,Qa as v,Ua as m,ab as n,bb as t,cb as f,mb as c,pb as p,qb as s,rb as l,vb as g,ya as d}from"./chunk-SLNWKZP3.js";var I=[{slug:"dhool-se-pare",author:"\u0915\u0943'\u092A\u093E",title:"\u0927\u0942\u0932 \u0938\u0947 \u092A\u0930\u0947",description:"\u0905\u0939\u0902\u0915\u093E\u0930, \u092E\u094B\u0939, \u0924\u0943\u0937\u094D\u0923\u093E \u0914\u0930 \u092A\u094D\u0930\u092E\u093E\u0926 \u0915\u0940 \u0927\u0942\u0932 \u0938\u0947 \u090A\u092A\u0930 \u0909\u0920\u0915\u0930 \u0906\u0924\u094D\u092E\u093E \u0915\u0940 \u0936\u0941\u0926\u094D\u0927\u0924\u093E, \u092C\u094B\u0927 \u0914\u0930 \u0938\u094D\u0935\u092F\u0902 \u0915\u0940 \u0916\u094B\u091C \u0915\u093E \u0938\u0902\u0926\u0947\u0936 \u0926\u0947\u0924\u0940 \u090F\u0915 \u0926\u093E\u0930\u094D\u0936\u0928\u093F\u0915 \u0939\u093F\u0902\u0926\u0940 \u0915\u0935\u093F\u0924\u093E\u0964",content:[` <div class="poem-wrapper">
+            <p>
+                \u0927\u0942\u0932 \u0915\u0948\u0938\u0940?<br/>
+                \u0927\u0942\u0932 \u0905\u0939\u0902\u0915\u093E\u0930 \u0915\u0940, \u092F\u093E<br/>
+                \u0915\u093F\u0938\u0940 \u0915\u0940 \u092E\u0926\u0926 \u0915\u0930\u0928\u0947 \u0938\u0947<br/>
+                \u0909\u092A\u091C\u0947 \u0905\u0939\u0902-\u0935\u093F\u0915\u093E\u0930 \u0915\u0940\u0964
+            </p>
+            <p>
+                \u0927\u0942\u0932 \u0938\u092E\u094D\u092E\u093E\u0928 \u0915\u0940, \u092F\u093E \u0927\u0942\u0932 \u0905\u092A\u092E\u093E\u0928 \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u092F\u0936 \u0915\u0940, \u092F\u093E \u0927\u0942\u0932 \u0905\u092A\u092F\u0936 \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u0905\u092E\u0940\u0930\u0940 \u0915\u0940, \u092F\u093E \u0927\u0942\u0932 \u0917\u0930\u0940\u092C\u0940 \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u0936\u0915\u094D\u0924\u093F \u0915\u0940, \u092F\u093E \u0927\u0942\u0932 \u092D\u0915\u094D\u0924\u093F \u0915\u0940\u0964
+            </p>
+            <p>
+                \u0927\u0942\u0932 \u092E\u094B\u0939 \u0915\u0940, \u0927\u0942\u0932 \u0935\u0948\u0930\u093E\u0917\u094D\u092F \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u0924\u0943\u0937\u094D\u0923\u093E \u0915\u0940, \u0927\u0942\u0932 \u0924\u0943\u092A\u094D\u0924\u093F \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u0926\u094D\u0935\u0947\u0937 \u0915\u0940, \u0927\u0942\u0932 \u0915\u0930\u0941\u0923\u093E \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u0909\u0926\u093E\u0938\u0940 \u0915\u0940, \u0927\u0942\u0932 \u0909\u0932\u094D\u0932\u093E\u0938 \u0915\u0940\u0964
+            </p>
+            <p>
+                \u0927\u0942\u0932 \u0907\u091A\u094D\u091B\u093E\u0913\u0902 \u0915\u0940, \u0927\u0942\u0932 \u0905\u092A\u0947\u0915\u094D\u0937\u093E\u0913\u0902 \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u0905\u0927\u0942\u0930\u0947 \u0938\u094D\u0935\u092A\u094D\u0928\u094B\u0902 \u0914\u0930 \u091F\u0942\u091F\u0924\u0940 \u0906\u0936\u093E\u0913\u0902 \u0915\u0940,<br/>
+                \u0927\u0942\u0932 \u092E\u0928 \u092E\u0947\u0902 \u092A\u0932\u0924\u0940 \u0939\u0930 \u090F\u0915 \u0917\u094D\u0930\u0902\u0925\u093F \u0915\u0940, \u0906\u0916\u093F\u0930 <br/>
+                \u0927\u0942\u0932 \u0924\u094B \u0927\u0942\u0932 \u0939\u0948, \u0909\u0938\u0915\u093E \u0915\u094D\u092F\u093E \u092E\u094B\u0932 \u0939\u0948?
+            </p>
+            <p>
+                \u0927\u0942\u0932 \u0906\u0924\u094D\u092E\u093E \u092A\u0930 \u090F\u0915 \u092C\u094B\u091D \u0939\u0948,<br/>
+                \u0927\u0942\u0932 \u0938\u0947 \u092A\u0930\u0947 \u0939\u0940 \u0938\u094D\u0935\u092F\u0902 \u0915\u0940 \u0916\u094B\u091C \u0939\u0948\u0964<br/>
+                \u0927\u0942\u0932 \u091C\u092E\u0928\u0947 \u0938\u0947 \u091C\u0928\u094D\u092E\u0924\u093E \u092A\u094D\u0930\u092E\u093E\u0926 \u0939\u0948, \u0914\u0930 <br/>
+                \u092A\u094D\u0930\u092E\u093E\u0926 \u092E\u0947\u0902 \u091C\u093F\u092F\u093E \u091C\u0940\u0935\u0928 \u092E\u094C\u0928 \u0935\u093F\u0937\u093E\u0926 \u0939\u0948\u0964
+            </p>
+            <p>
+                \u091C\u093F\u0938\u0928\u0947 \u0927\u0942\u0932 \u0915\u094B \u0928\u093F\u0924 \u0909\u0924\u093E\u0930\u093E,<br/>
+                \u0909\u0938\u0940 \u0928\u0947 \u091C\u0940\u0935\u0928 \u0915\u094B \u0938\u0901\u0935\u093E\u0930\u093E\u0964<br/>
+                \u0905\u0924\u090F\u0935 \u0927\u0942\u0932 \u0938\u093E\u092B \u0915\u0930\u0924\u0947 \u0930\u0939\u094B,<br/>
+                \u0914\u0930 \u091C\u093E\u0928\u094B, \u0927\u0942\u0932 \u0915\u0948\u0938\u0940?
+            </p>
+            -----------------------------------
+        </div> `]},{slug:"jeevant-hasti",author:"\u0915\u0943'\u092A\u093E",title:"\u091C\u0940\u0935\u0902\u0924 \u0939\u0938\u094D\u0924\u0940",description:"\u0906\u0924\u094D\u092E-\u0938\u093E\u0915\u094D\u0937\u0940 \u092D\u093E\u0935, \u0938\u0902\u0924\u0941\u0932\u0928, \u0928\u093F\u0930\u094D\u092D\u0940\u0915\u0924\u093E \u0914\u0930 \u091C\u0940\u0935\u0928 \u0915\u0940 \u0938\u094D\u0935\u0940\u0915\u0943\u0924\u093F \u0915\u094B \u0935\u094D\u092F\u0915\u094D\u0924 \u0915\u0930\u0924\u0940 \u090F\u0915 \u0926\u0930\u094D\u0936\u0928\u093E\u0924\u094D\u092E\u0915 \u0939\u093F\u0902\u0926\u0940 \u0915\u0935\u093F\u0924\u093E, \u091C\u094B \u092E\u0928\u0941\u0937\u094D\u092F \u0915\u094B \u092C\u093E\u0939\u0930\u0940 \u092A\u0930\u093F\u0938\u094D\u0925\u093F\u0924\u093F\u092F\u094B\u0902 \u0938\u0947 \u090A\u092A\u0930 \u0909\u0920\u0915\u0930 \u092D\u0940\u0924\u0930 \u0915\u0940 \u091A\u0947\u0924\u0928\u093E \u092E\u0947\u0902 \u0938\u094D\u0925\u093F\u0930 \u0939\u094B\u0928\u0947 \u0915\u0940 \u092A\u094D\u0930\u0947\u0930\u0923\u093E \u0926\u0947\u0924\u0940 \u0939\u0948\u0964",content:[` <div class="poem-wrapper">
+            <p>
+                \u091A\u0932 \u0930\u0939\u0940 \u091C\u0940\u0935\u0928 \u0915\u0940 \u0915\u0936\u094D\u0924\u0940,<br/>
+                \u0928 \u0930\u0941\u0915\u0928\u0940 \u091A\u093E\u0939\u093F\u090F \u0907\u0938\u0915\u0940 \u092E\u0938\u094D\u0924\u0940\u0964<br/>
+                \u091C\u092C \u091C\u0940\u0935\u0928 \u0938\u0947 \u092D\u0940 \u092E\u0943\u0924\u094D\u092F\u0941 \u0932\u0917\u0947 \u0938\u0938\u094D\u0924\u0940,<br/>
+                \u0924\u092C \u092A\u0939\u091A\u093E\u0928\u094B, \u0924\u0941\u092E \u0939\u094B \u091C\u0940\u0935\u0902\u0924 \u0939\u0938\u094D\u0924\u0940\u0964
+            </p>
+            <p>
+                \u091C\u0940\u0935\u0902\u0924 \u0935\u0939\u0940, \u091C\u094B \u092D\u092F \u0938\u0947 \u0928 \u0939\u093E\u0930\u0947,<br/>
+                \u091C\u094B \u091F\u0942\u091F\u0947, \u092B\u093F\u0930 \u092D\u0940 \u0938\u094D\u0935\u092F\u0902 \u0915\u094B \u0928 \u092E\u093E\u0930\u0947\u0964<br/>
+                \u092D\u093E\u0935\u0928\u093E\u0913\u0902 \u0915\u0947 \u092C\u094B\u091D \u0924\u0932\u0947 \u0926\u092C\u0947 \u0928\u0939\u0940\u0902,<br/>
+                \u0939\u093E\u0930 \u0939\u094B \u091A\u093E\u0939\u0947 \u091C\u0940\u0924, \u0930\u092E\u0947 \u0935\u0939\u0940\u0964
+            </p>
+            <p>
+                \u091C\u094B \u0906\u092F\u093E, \u0909\u0938\u0947 \u0906\u0924\u0947 \u0926\u0947\u0916\u093E,<br/>
+                \u091C\u094B \u0917\u092F\u093E, \u0909\u0938\u0947 \u091C\u093E\u0924\u0947 \u0926\u0947\u0916\u093E\u0964<br/>
+                \u0928 \u0915\u093F\u0938\u0940 \u0915\u094D\u0937\u0923 \u0915\u094B \u0925\u093E\u092E\u0947 \u0930\u0916\u093E,<br/>
+                \u0928 \u0915\u093F\u0938\u0940 \u092A\u0940\u0921\u093C\u093E \u092E\u0947\u0902 \u0916\u0941\u0926 \u0915\u094B \u091D\u094B\u0902\u0915\u093E\u0964
+            </p>
+            <p>
+                \u0928 \u092C\u0940\u0924\u0947 \u0915\u0932 \u0915\u093E \u092C\u094B\u091D \u0909\u0920\u093E\u092F\u093E,<br/>
+                \u0928 \u0906\u0928\u0947 \u0935\u093E\u0932\u0947 \u0915\u0932 \u0938\u0947 \u0918\u092C\u0930\u093E\u092F\u093E\u0964<br/>
+                \u091C\u094B \u0938\u093E\u092E\u0928\u0947 \u0925\u093E, \u0909\u0938\u0947 \u0939\u0940 \u091C\u093F\u092F\u093E,<br/>
+                \u0915\u094D\u0937\u0923-\u0915\u094D\u0937\u0923 \u091C\u0940\u0935\u0928 \u0915\u094B \u0905\u092A\u0928\u093E\u092F\u093E\u0964
+            </p>
+            <p>
+                \u0928 \u092A\u094D\u0930\u0936\u0902\u0938\u093E \u092E\u0947\u0902 \u0938\u094D\u0935\u092F\u0902 \u0915\u094B \u092C\u0922\u093C\u093E\u092F\u093E,<br/>
+                \u0928 \u0928\u093F\u0902\u0926\u093E \u092E\u0947\u0902 \u0938\u094D\u0935\u092F\u0902 \u0915\u094B \u0918\u091F\u093E\u092F\u093E\u0964<br/>
+                \u0907\u0938 \u091C\u0940\u0935\u0928 \u0915\u094B \u0905\u092A\u0928\u093E \u092E\u093E\u0928\u093E,<br/>
+                \u091C\u094B \u0925\u093E \u092D\u0940\u0924\u0930, \u0909\u0938\u0940 \u0915\u094B \u0905\u092A\u0928\u093E\u092F\u093E\u0964
+            </p>
+            <p>
+                \u0906\u091C \u0915\u093F\u0938\u0940 \u0928\u0947 \u0921\u093E\u0902\u091F\u093E, \u0924\u094B \u0915\u094D\u092F\u093E, \u091A\u0932\u0924\u0947 \u0930\u0939\u094B\u0964<br/>
+                \u0915\u0932 \u0915\u093F\u0938\u0940 \u0928\u0947 \u0938\u0930\u093E\u0939\u093E, \u0924\u094B \u0915\u094D\u092F\u093E, \u091A\u0932\u0924\u0947 \u0930\u0939\u094B\u0964<br/>
+                \u092E\u0928 \u0915\u0940 \u091A\u093E\u0939 \u0938\u094D\u0935\u0940\u0915\u093E\u0930 \u0928 \u092A\u093E\u0908, \u0924\u094B \u0915\u094D\u092F\u093E, \u091A\u0932\u0924\u0947 \u0930\u0939\u094B\u0964<br/>
+                \u0905\u092A\u0947\u0915\u094D\u0937\u093E\u090F\u0902 \u092D\u0940 \u092A\u093E\u0930 \u0928 \u092A\u093E\u0908\u0902, \u0924\u094B \u0915\u094D\u092F\u093E, \u091A\u0932\u0924\u0947 \u0930\u0939\u094B\u0964
+            </p>
+            <p>
+                \u0928 \u0920\u0939\u0930\u0928\u093E \u0915\u093F\u0938\u0940 \u092E\u094B\u0921\u093C \u092A\u0930 \u0905\u0927\u093F\u0915,<br/>
+                \u0928 \u092A\u0940\u091B\u0947 \u092E\u0941\u0921\u093C\u0915\u0930 \u092C\u093E\u0930-\u092C\u093E\u0930 \u0926\u0947\u0916\u0928\u093E\u0964<br/>
+                \u091C\u094B \u0918\u091F \u0930\u0939\u093E \u0939\u0948, \u0909\u0938\u0947 \u0938\u0924\u094D\u092F \u091C\u093E\u0928,<br/>
+                \u0909\u0938\u0940 \u092E\u0947\u0902 \u0938\u094D\u0935\u092F\u0902 \u0915\u094B \u0938\u094D\u0925\u093F\u0930 \u0930\u0916\u0928\u093E\u0964
+            </p>
+            <p>
+                \u092E\u0938\u094D\u0924\u0940 \u092C\u093E\u0939\u0930\u0940 \u092A\u0930\u093F\u0938\u094D\u0925\u093F\u0924\u093F\u092F\u094B\u0902 \u0915\u0940 \u0926\u0947\u0928 \u0928\u0939\u0940\u0902,<br/>
+                \u092F\u0939 \u092D\u0940\u0924\u0930 \u091C\u093E\u0917\u0940 \u091A\u0947\u0924\u0928\u093E \u0915\u0940 \u0905\u0935\u0938\u094D\u0925\u093E \u0939\u0948\u0964<br/>
+                \u092F\u0939\u0940 \u092E\u0928 \u0915\u094B \u0936\u093E\u0902\u0924\u093F \u0915\u0947 \u092A\u0925 \u092A\u0930 \u0932\u0947 \u091C\u093E\u090F,<br/>
+                \u092F\u0939\u0940 \u091C\u0940\u0935\u0928 \u0915\u0940 \u092A\u0930\u092E, \u0938\u0939\u091C \u0935\u094D\u092F\u0935\u0938\u094D\u0925\u093E \u0939\u0948\u0964
+            </p>
+            -----------------------------------
+        </div> `]},{slug:"tumse-prem-hai",author:"\u0915\u0943'\u092A\u093E",title:"\u0924\u0941\u092E\u0938\u0947 \u092A\u094D\u0930\u0947\u092E \u0939\u0948",description:"\u0928\u093F\u0938\u094D\u0935\u093E\u0930\u094D\u0925, \u090F\u0915\u0924\u0930\u092B\u093C\u093E \u092A\u094D\u0930\u0947\u092E \u0915\u0940 \u0938\u094D\u0935\u0940\u0915\u0943\u0924\u093F, \u0906\u0924\u094D\u092E\u0938\u0902\u0935\u093E\u0926 \u0914\u0930 \u092C\u093F\u0928\u093E \u0936\u0930\u094D\u0924 \u092D\u093E\u0935\u0928\u093E\u0913\u0902 \u0915\u0940 \u0938\u091A\u094D\u091A\u093E\u0908 \u0915\u094B \u0935\u094D\u092F\u0915\u094D\u0924 \u0915\u0930\u0924\u0940 \u090F\u0915 \u0938\u0902\u0935\u0947\u0926\u0928\u0936\u0940\u0932 \u0939\u093F\u0902\u0926\u0940 \u0915\u0935\u093F\u0924\u093E\u0964",content:[` <div class="poem-wrapper">
             <p>
                 \u092E\u0941\u091D\u0947 \u0924\u0941\u092E\u0938\u0947 \u092A\u094D\u0930\u0947\u092E \u0939\u0948,<br/>
                 \u091C\u094B \u0924\u0941\u092E\u0928\u0947 \u092A\u0942\u091B\u093E \u0915\u094D\u092F\u094B\u0902?<br/>
@@ -202,4 +290,4 @@ import{c as h,f as E,h as _}from"./chunk-VSXNT2GC.js";import{j as x,k as P,n as 
                 \u0935\u0939 \u0938\u0941\u0915\u0942\u0928 \u092A\u0948\u0938\u0947-\u0930\u0941\u092A\u092F\u094B\u0902 \u0938\u0947 \u0915\u0948\u0938\u0947 \u0916\u0930\u0940\u0926\u093E \u091C\u093E\u090F?
             </p>
             ---------------------------------------
-        </div>  `]}];var M=r=>["/poem",r];function L(r,p){if(r&1&&(n(0,"div",6)(1,"div",7)(2,"div",8)(3,"h5",9),o(4),t(),n(5,"p",10)(6,"b"),o(7,"\u0915\u0935\u093F:"),t(),o(8),t(),n(9,"p",11),o(10),t(),n(11,"a",12),o(12," Read More "),t()()()()),r&2){let e=p.$implicit;i(4),s(e.title),i(4),l(" ",e.author," "),i(2),l(" ",e.description," "),i(),a("routerLink",g(4,M,e.slug))}}function C(r,p){if(r&1&&(n(0,"div")(1,"h2",3),o(2,"\u0915\u093E\u0935\u094D\u092F \u0938\u0902\u0917\u094D\u0930\u0939"),t(),n(3,"div",4),m(4,L,13,6,"div",5),t()()),r&2){let e=c();i(4),a("ngForOf",e.filteredPoemList)}}function O(r,p){if(r&1&&(n(0,"div",13)(1,"button",14),o(2," \u2190 Back to Poems "),t(),n(3,"div",15)(4,"h1",16),o(5),t(),n(6,"p",10)(7,"b"),o(8,"\u0915\u0935\u093F:"),t(),o(9),t()(),f(10,"article",17),t()),r&2){let e=c();i(5),s(e.selectedPoem.title),i(4),l(" ",e.selectedPoem.author," "),i(),a("innerHTML",e.selectedPoem.content.join(""),d)}}var w=class r{constructor(p){this.route=p}poemList=I;selectedPoem=null;ngOnInit(){this.route.paramMap.subscribe(p=>{let e=p.get("slug");this.selectedPoem=e&&this.poemList.find(b=>b.slug===e)||null})}get filteredPoemList(){return this.poemList}static \u0275fac=function(e){return new(e||r)(u(h))};static \u0275cmp=v({type:r,selectors:[["app-poem"]],decls:3,vars:2,consts:[[1,"container-fluid","p-md-5","py-5"],[4,"ngIf"],["class","container py-4 px-md-5",4,"ngIf"],[1,"fw-bold","mb-4","text-center"],[1,"row","row-cols-1","row-cols-md-4","g-4"],["class","col",4,"ngFor","ngForOf"],[1,"col"],[1,"card","h-100","shadow-sm","btn-outline-primary"],[1,"card-body","text-center"],[1,"card-title"],[1,"small"],[1,"card-text"],[1,"btn","btn-outline-primary","btn-sm","btn-primary","text-light",3,"routerLink"],[1,"container","py-4","px-md-5"],["routerLink","/poem",1,"btn","btn-outline-primary","mb-4"],[1,"text-center","mb-4"],[1,"fw-bold"],[1,"text-center",3,"innerHTML"]],template:function(e,b){e&1&&(n(0,"section",0),m(1,C,5,1,"div",1)(2,O,11,3,"div",2),t()),e&2&&(i(),a("ngIf",!b.selectedPoem),i(),a("ngIf",b.selectedPoem))},dependencies:[_,E,y,x,P],styles:["h2[_ngcontent-%COMP%]{font-family:Poppins,sans-serif;font-weight:700;color:var(--text-color);text-align:center}.card[_ngcontent-%COMP%]{transition:transform .2s;background:var(--card-bg);color:var(--card-text)}.card[_ngcontent-%COMP%]:hover{transform:translateY(-5px)}.btn-outline-primary[_ngcontent-%COMP%]{border-color:var(--text-color);color:var(--text-color)}"]})};export{w as Poem};
+        </div>  `]}];var M=r=>["/poem",r];function L(r,o){if(r&1&&(n(0,"div",6)(1,"div",7)(2,"div",8)(3,"h5",9),p(4),t(),n(5,"p",10)(6,"b"),p(7,"\u0915\u0935\u093F:"),t(),p(8),t(),n(9,"p",11),p(10),t(),n(11,"a",12),p(12," Read More "),t()()()()),r&2){let e=o.$implicit;i(4),s(e.title),i(4),l(" ",e.author," "),i(2),l(" ",e.description," "),i(),b("routerLink",g(4,M,e.slug))}}function C(r,o){if(r&1&&(n(0,"div")(1,"h2",3),p(2,"\u0915\u093E\u0935\u094D\u092F \u0938\u0902\u0917\u094D\u0930\u0939"),t(),n(3,"div",4),m(4,L,13,6,"div",5),t()()),r&2){let e=c();i(4),b("ngForOf",e.filteredPoemList)}}function O(r,o){if(r&1&&(n(0,"div",13)(1,"button",14),p(2," \u2190 Back to Poems "),t(),n(3,"div",15)(4,"h1",16),p(5),t(),n(6,"p",10)(7,"b"),p(8,"\u0915\u0935\u093F:"),t(),p(9),t()(),f(10,"article",17),t()),r&2){let e=c();i(5),s(e.selectedPoem.title),i(4),l(" ",e.selectedPoem.author," "),i(),b("innerHTML",e.selectedPoem.content.join(""),d)}}var w=class r{constructor(o){this.route=o}poemList=I;selectedPoem=null;ngOnInit(){this.route.paramMap.subscribe(o=>{let e=o.get("slug");this.selectedPoem=e&&this.poemList.find(a=>a.slug===e)||null})}get filteredPoemList(){return this.poemList}static \u0275fac=function(e){return new(e||r)(u(y))};static \u0275cmp=v({type:r,selectors:[["app-poem"]],decls:3,vars:2,consts:[[1,"container-fluid","p-md-5","py-5"],[4,"ngIf"],["class","container py-4 px-md-5",4,"ngIf"],[1,"fw-bold","mb-4","text-center"],[1,"row","row-cols-1","row-cols-md-4","g-4"],["class","col",4,"ngFor","ngForOf"],[1,"col"],[1,"card","h-100","shadow-sm","btn-outline-primary"],[1,"card-body","text-center"],[1,"card-title"],[1,"small"],[1,"card-text"],[1,"btn","btn-outline-primary","btn-sm","btn-primary","text-light",3,"routerLink"],[1,"container","py-4","px-md-5"],["routerLink","/poem",1,"btn","btn-outline-primary","mb-4"],[1,"text-center","mb-4"],[1,"fw-bold"],[1,"text-center",3,"innerHTML"]],template:function(e,a){e&1&&(n(0,"section",0),m(1,C,5,1,"div",1)(2,O,11,3,"div",2),t()),e&2&&(i(),b("ngIf",!a.selectedPoem),i(),b("ngIf",a.selectedPoem))},dependencies:[_,E,P,x,h],styles:["h2[_ngcontent-%COMP%]{font-family:Poppins,sans-serif;font-weight:700;color:var(--text-color);text-align:center}.card[_ngcontent-%COMP%]{transition:transform .2s;background:var(--card-bg);color:var(--card-text)}.card[_ngcontent-%COMP%]:hover{transform:translateY(-5px)}.btn-outline-primary[_ngcontent-%COMP%]{border-color:var(--text-color);color:var(--text-color)}"]})};export{w as Poem};
