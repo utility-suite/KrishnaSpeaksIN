@@ -53,7 +53,7 @@ export const blogData: BlogEntry[] = [
               <p class="mb-2">Truth does not need sharp edges. Ego adds them. Ethics does not need loudness. Ego supplies it.</p>
               <p class="mb-2">Staying ethical without offending others is not about dilution. It is about refinement. Not about speaking less truth, but about speaking truth with awareness, humility, and responsibility.</p>
               <p class="mt-6">When ethics is free from ego, it becomes wisdom. When truth is free from pride, it becomes healing. - <em>Krishna from KrishnaSpeaksIN</em></p>
-              <em>(Topic suggested by <strong>Ms. Suchitra K Gowda</strong>, Third Year BTech student in Biotechnology, Sir M. Visvesvaraya Institute of Technology)</em>`
+              <em>(Topic suggested by <strong>Ms. Suchitra K Gowda</strong>, Third Year BTech student in Biotechnology, Sir M. Visvesvaraya Institute of Technology)</em> `
     ]
   },
   {
