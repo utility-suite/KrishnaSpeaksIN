@@ -1,6 +1,8 @@
 import { Component, ElementRef, ViewChild, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { Chart, registerables } from 'chart.js';
+
+// Import your strongly typed data
 import { timelineData, TimelineEntry } from '../../../data-entries/timeline'; 
 
 Chart.register(...registerables);
@@ -15,8 +17,6 @@ Chart.register(...registerables);
 export class Home implements AfterViewInit {
   @ViewChild('careerChart') careerChart!: ElementRef;
   chart: any;
-
-  // Assign the imported data to a local component property
   myTimeline: TimelineEntry[] = timelineData;
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
@@ -95,7 +95,10 @@ export class Home implements AfterViewInit {
             min: 2012, 
             max: 2028,
             ticks: {
-              stepSize: 2
+              stepSize: 2,
+              callback: function(value) {
+                return value.toString(); 
+              }
             },
             grid: {
               color: '#e9ecef'
@@ -144,7 +147,7 @@ export class Home implements AfterViewInit {
                 }
 
                 tooltipLines.push(''); 
-                tooltipLines.push(`Click to visit Institution's Website`);
+                tooltipLines.push('👉 Click to visit website');
                 
                 return tooltipLines;
               }
