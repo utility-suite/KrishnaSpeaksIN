@@ -147,7 +147,7 @@ export class Home implements AfterViewInit {
                 }
 
                 tooltipLines.push(''); 
-                tooltipLines.push('👉 Click to visit website');
+                tooltipLines.push(`Click to visit Institution's website`);
                 
                 return tooltipLines;
               }
