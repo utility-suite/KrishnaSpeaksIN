@@ -4,6 +4,8 @@ export interface GalleryItem {
 }
 
 export const GALLERY: GalleryItem[] = [
+  { image: 'assets/image/gallery/Meet_4.jpg', tags: ['Teachers'] },
+  { image: 'assets/image/gallery/CTC_10.jpg', tags: ['IISc', 'Friends'] },
   { image: 'assets/image/gallery/HindiCompetition_IISc.JPG', tags: ['IISc','Awards'] },
   { image: 'assets/image/gallery/VidhanSoudha.jpg', tags: ['Solo'] },
   { image: 'assets/image/gallery/GhantaGhar_Night.jpg', tags: ['View'] },
