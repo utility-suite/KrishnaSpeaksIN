@@ -4,6 +4,10 @@ export interface GalleryItem {
 }
 
 export const GALLERY: GalleryItem[] = [
+  { image: 'assets/image/gallery/CTC_11.jpg', tags: ['IISc', 'Friends'] },
+  { image: 'assets/image/gallery/ReyanshHindiFest2026_1.jpg', tags: ['Events', 'Teachers'] },
+  { image: 'assets/image/gallery/ReyanshHindiFest2026_2.jpg', tags: ['Events', 'Teachers'] },
+  { image: 'assets/image/gallery/ReyanshHindiFest2026_3.jpg', tags: ['Events', 'Teachers'] },
   { image: 'assets/image/gallery/Meet_4.jpg', tags: ['Teachers'] },
   { image: 'assets/image/gallery/CTC_10.jpg', tags: ['IISc', 'Friends'] },
   { image: 'assets/image/gallery/HindiCompetition_IISc.JPG', tags: ['IISc','Awards'] },
